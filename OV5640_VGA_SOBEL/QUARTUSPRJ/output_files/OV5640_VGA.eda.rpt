@@ -1,5 +1,5 @@
 EDA Netlist Writer report for OV5640_VGA
-Wed Jun 15 16:29:33 2022
+Fri Jun 17 15:54:01 2022
 Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
 
 
@@ -37,9 +37,9 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Jun 15 16:29:33 2022 ;
+; EDA Netlist Writer Status ; Successful - Fri Jun 17 15:54:01 2022 ;
 ; Revision Name             ; OV5640_VGA                            ;
-; Top-level Entity Name     ; OV5640_VGA                            ;
+; Top-level Entity Name     ; OV5640_VGA_SOBEL                      ;
 ; Family                    ; Cyclone IV E                          ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -67,20 +67,20 @@ agreement for further details.
 +---------------------------------------------------------------------------------------------------+--------------------+
 
 
-+--------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                       ;
-+--------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                  ;
-+--------------------------------------------------------------------------------------------------+
-; G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_8_1200mv_85c_slow.vo     ;
-; G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_8_1200mv_0c_slow.vo      ;
-; G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_min_1200mv_0c_fast.vo    ;
-; G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/OV5640_VGA.vo                       ;
-; G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_8_1200mv_85c_v_slow.sdo  ;
-; G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_8_1200mv_0c_v_slow.sdo   ;
-; G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_min_1200mv_0c_v_fast.sdo ;
-; G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_v.sdo                    ;
-+--------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                      ;
++-------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                 ;
++-------------------------------------------------------------------------------------------------+
+; G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_8_1200mv_85c_slow.vo     ;
+; G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_8_1200mv_0c_slow.vo      ;
+; G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_min_1200mv_0c_fast.vo    ;
+; G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/OV5640_VGA.vo                       ;
+; G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_8_1200mv_85c_v_slow.sdo  ;
+; G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_8_1200mv_0c_v_slow.sdo   ;
+; G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_min_1200mv_0c_v_fast.sdo ;
+; G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/OV5640_VGA_v.sdo                    ;
++-------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -89,19 +89,19 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 15.0.0 Build 145 04/22/2015 SJ Full Version
-    Info: Processing started: Wed Jun 15 16:29:29 2022
+    Info: Processing started: Fri Jun 17 15:53:57 2022
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off OV5640_VGA -c OV5640_VGA
-Info (204019): Generated file OV5640_VGA_8_1200mv_85c_slow.vo in folder "G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file OV5640_VGA_8_1200mv_0c_slow.vo in folder "G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file OV5640_VGA_min_1200mv_0c_fast.vo in folder "G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file OV5640_VGA.vo in folder "G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file OV5640_VGA_8_1200mv_85c_v_slow.sdo in folder "G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file OV5640_VGA_8_1200mv_0c_v_slow.sdo in folder "G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file OV5640_VGA_min_1200mv_0c_v_fast.sdo in folder "G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file OV5640_VGA_v.sdo in folder "G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file OV5640_VGA_8_1200mv_85c_slow.vo in folder "G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file OV5640_VGA_8_1200mv_0c_slow.vo in folder "G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file OV5640_VGA_min_1200mv_0c_fast.vo in folder "G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file OV5640_VGA.vo in folder "G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file OV5640_VGA_8_1200mv_85c_v_slow.sdo in folder "G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file OV5640_VGA_8_1200mv_0c_v_slow.sdo in folder "G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file OV5640_VGA_min_1200mv_0c_v_fast.sdo in folder "G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file OV5640_VGA_v.sdo in folder "G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4757 megabytes
-    Info: Processing ended: Wed Jun 15 16:29:33 2022
+    Info: Peak virtual memory: 4754 megabytes
+    Info: Processing ended: Fri Jun 17 15:54:01 2022
     Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:04
 

@@ -1,0 +1,70 @@
+
+State Machine - |OV5640_VGA_SOBEL_Ero_Dli|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_WR:SDRAM_WR_INST|state
+Name state.WR_END state.WR_TRP state.WR_PRE state.WR_DATA state.WR_WRITE state.WR_TRCD state.WR_ACTIVE state.WR_IDLE 
+state.WR_IDLE 0 0 0 0 0 0 0 0 
+state.WR_ACTIVE 0 0 0 0 0 0 1 1 
+state.WR_TRCD 0 0 0 0 0 1 0 1 
+state.WR_WRITE 0 0 0 0 1 0 0 1 
+state.WR_DATA 0 0 0 1 0 0 0 1 
+state.WR_PRE 0 0 1 0 0 0 0 1 
+state.WR_TRP 0 1 0 0 0 0 0 1 
+state.WR_END 1 0 0 0 0 0 0 1 
+
+State Machine - |OV5640_VGA_SOBEL_Ero_Dli|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_RD:SDRAM_RD_ISNT|state
+Name state.RD_END state.RD_TRP state.RD_PRE state.RD_DATA state.RD_CL state.RD_READ state.RD_TRCD state.RD_ACTIVE state.RD_IDLE 
+state.RD_IDLE 0 0 0 0 0 0 0 0 0 
+state.RD_ACTIVE 0 0 0 0 0 0 0 1 1 
+state.RD_TRCD 0 0 0 0 0 0 1 0 1 
+state.RD_READ 0 0 0 0 0 1 0 0 1 
+state.RD_CL 0 0 0 0 1 0 0 0 1 
+state.RD_DATA 0 0 0 1 0 0 0 0 1 
+state.RD_PRE 0 0 1 0 0 0 0 0 1 
+state.RD_TRP 0 1 0 0 0 0 0 0 1 
+state.RD_END 1 0 0 0 0 0 0 0 1 
+
+State Machine - |OV5640_VGA_SOBEL_Ero_Dli|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_AREF:SDRAM_AREF_INST|state
+Name state.AREF_END state.AREF_TRFC state.AREF_AR state.AREF_TRP state.AREF_PRE state.AREF_IDLE 
+state.AREF_IDLE 0 0 0 0 0 0 
+state.AREF_PRE 0 0 0 0 1 1 
+state.AREF_TRP 0 0 0 1 0 1 
+state.AREF_AR 0 0 1 0 0 1 
+state.AREF_TRFC 0 1 0 0 0 1 
+state.AREF_END 1 0 0 0 0 1 
+
+State Machine - |OV5640_VGA_SOBEL_Ero_Dli|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_ARBIT:SDRAN_ARBIT_INST|state
+Name state.AUTO_REF state.READ state.WRITE state.ARBIT state.IDLE 
+state.IDLE 0 0 0 0 0 
+state.ARBIT 0 0 0 1 1 
+state.WRITE 0 0 1 0 1 
+state.READ 0 1 0 0 1 
+state.AUTO_REF 1 0 0 0 1 
+
+State Machine - |OV5640_VGA_SOBEL_Ero_Dli|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_INIT:SDRAM_INIT_INST|state
+Name state.INIT_END state.INIT_TMRD state.INIT_MRS state.INIT_TRFC state.INIT_AR state.INIT_TRP state.INIT_PRE state.INIT_IDLE 
+state.INIT_IDLE 0 0 0 0 0 0 0 0 
+state.INIT_PRE 0 0 0 0 0 0 1 1 
+state.INIT_TRP 0 0 0 0 0 1 0 1 
+state.INIT_AR 0 0 0 0 1 0 0 1 
+state.INIT_TRFC 0 0 0 1 0 0 0 1 
+state.INIT_MRS 0 0 1 0 0 0 0 1 
+state.INIT_TMRD 0 1 0 0 0 0 0 1 
+state.INIT_END 1 0 0 0 0 0 0 1 
+
+State Machine - |OV5640_VGA_SOBEL_Ero_Dli|OV5640_CTRL:OV5640_CTRL_INST|OV5640_CFG:OV5640_CFG_INST|IIC_CTRL:IIC_CTRL_INST|state
+Name state.NACK state.RD_DATA state.ACK5 state.RD_DEV_ADDR state.START2 state.STOP state.ACK4 state.WR_DATA state.ACK3 state.WR_DATA_ADDR_L state.ACK2 state.WR_DATA_ADDR_H state.ACK1 state.WR_DEV_ADDR state.START state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.WR_DEV_ADDR 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.ACK1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.WR_DATA_ADDR_H 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.ACK2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.WR_DATA_ADDR_L 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.ACK3 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.WR_DATA 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.ACK4 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.STOP 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.START2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.RD_DEV_ADDR 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.ACK5 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.RD_DATA 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.NACK 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

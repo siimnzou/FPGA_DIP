@@ -1,4 +1,4 @@
-|OV5640_VGA
+|OV5640_VGA_SOBEL
 clk => clk.IN2
 rst_n => rst_n.IN2
 ov5640_pclk => ov5640_pclk.IN4
@@ -75,7 +75,7 @@ hsync <= VGA_CTRL:VGA_CTRL_INST.hsync
 vsync <= VGA_CTRL:VGA_CTRL_INST.vsync
 
 
-|OV5640_VGA|CLK_GEN:CLK_GEN_inst
+|OV5640_VGA_SOBEL|CLK_GEN:CLK_GEN_inst
 areset => areset.IN1
 inclk0 => sub_wire1[0].IN1
 c0 <= altpll:altpll_component.clk
@@ -84,7 +84,7 @@ c2 <= altpll:altpll_component.clk
 locked <= altpll:altpll_component.locked
 
 
-|OV5640_VGA|CLK_GEN:CLK_GEN_inst|altpll:altpll_component
+|OV5640_VGA_SOBEL|CLK_GEN:CLK_GEN_inst|altpll:altpll_component
 inclk[0] => CLK_GEN_altpll:auto_generated.inclk[0]
 inclk[1] => CLK_GEN_altpll:auto_generated.inclk[1]
 fbin => ~NO_FANOUT~
@@ -144,7 +144,7 @@ fref <= <GND>
 icdrclk <= <GND>
 
 
-|OV5640_VGA|CLK_GEN:CLK_GEN_inst|altpll:altpll_component|CLK_GEN_altpll:auto_generated
+|OV5640_VGA_SOBEL|CLK_GEN:CLK_GEN_inst|altpll:altpll_component|CLK_GEN_altpll:auto_generated
 areset => pll_lock_sync.ACLR
 areset => pll1.ARESET
 clk[0] <= pll1.CLK
@@ -157,14 +157,14 @@ inclk[1] => pll1.CLK1
 locked <= locked.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|CLK_VGA:CLK_VGA_inst
+|OV5640_VGA_SOBEL|CLK_VGA:CLK_VGA_inst
 areset => areset.IN1
 inclk0 => sub_wire1[0].IN1
 c0 <= altpll:altpll_component.clk
 locked <= altpll:altpll_component.locked
 
 
-|OV5640_VGA|CLK_VGA:CLK_VGA_inst|altpll:altpll_component
+|OV5640_VGA_SOBEL|CLK_VGA:CLK_VGA_inst|altpll:altpll_component
 inclk[0] => CLK_VGA_altpll:auto_generated.inclk[0]
 inclk[1] => CLK_VGA_altpll:auto_generated.inclk[1]
 fbin => ~NO_FANOUT~
@@ -224,7 +224,7 @@ fref <= <GND>
 icdrclk <= <GND>
 
 
-|OV5640_VGA|CLK_VGA:CLK_VGA_inst|altpll:altpll_component|CLK_VGA_altpll:auto_generated
+|OV5640_VGA_SOBEL|CLK_VGA:CLK_VGA_inst|altpll:altpll_component|CLK_VGA_altpll:auto_generated
 areset => pll_lock_sync.ACLR
 areset => pll1.ARESET
 clk[0] <= pll1.CLK
@@ -237,7 +237,7 @@ inclk[1] => pll1.CLK1
 locked <= locked.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|OV5640_CTRL:OV5640_CTRL_INST
+|OV5640_VGA_SOBEL|OV5640_CTRL:OV5640_CTRL_INST
 pclk => pclk.IN1
 href => href.IN1
 vsync => vsync.IN1
@@ -274,7 +274,7 @@ data_to_sdram[14] <= OV5640_DATA:OV5640_DATA_INST.data_to_sdram
 data_to_sdram[15] <= OV5640_DATA:OV5640_DATA_INST.data_to_sdram
 
 
-|OV5640_VGA|OV5640_CTRL:OV5640_CTRL_INST|OV5640_CFG:OV5640_CFG_INST
+|OV5640_VGA_SOBEL|OV5640_CTRL:OV5640_CTRL_INST|OV5640_CFG:OV5640_CFG_INST
 clk => clk.IN2
 rst_n => rst_n.IN2
 scl <= IIC_CTRL:IIC_CTRL_INST.scl
@@ -282,7 +282,7 @@ sda <> IIC_CTRL:IIC_CTRL_INST.sda
 cfg_done <= OV5640_REG_CFG:OV5640_REG_CFG_INST.cfg_done
 
 
-|OV5640_VGA|OV5640_CTRL:OV5640_CTRL_INST|OV5640_CFG:OV5640_CFG_INST|OV5640_REG_CFG:OV5640_REG_CFG_INST
+|OV5640_VGA_SOBEL|OV5640_CTRL:OV5640_CTRL_INST|OV5640_CFG:OV5640_CFG_INST|OV5640_REG_CFG:OV5640_REG_CFG_INST
 clk => cfg_done~reg0.CLK
 clk => cfg_reg_num[0].CLK
 clk => cfg_reg_num[1].CLK
@@ -373,7 +373,7 @@ cfg_data[23] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 cfg_done <= cfg_done~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|OV5640_CTRL:OV5640_CTRL_INST|OV5640_CFG:OV5640_CFG_INST|IIC_CTRL:IIC_CTRL_INST
+|OV5640_VGA_SOBEL|OV5640_CTRL:OV5640_CTRL_INST|OV5640_CFG:OV5640_CFG_INST|IIC_CTRL:IIC_CTRL_INST
 clk => rd_data_reg[0]~reg0.CLK
 clk => rd_data_reg[1]~reg0.CLK
 clk => rd_data_reg[2]~reg0.CLK
@@ -501,7 +501,7 @@ rd_data_reg[6] <= rd_data_reg[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 rd_data_reg[7] <= rd_data_reg[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|OV5640_CTRL:OV5640_CTRL_INST|OV5640_DATA:OV5640_DATA_INST
+|OV5640_VGA_SOBEL|OV5640_CTRL:OV5640_CTRL_INST|OV5640_DATA:OV5640_DATA_INST
 pclk => data_to_sdram[0]~reg0.CLK
 pclk => data_to_sdram[1]~reg0.CLK
 pclk => data_to_sdram[2]~reg0.CLK
@@ -604,7 +604,7 @@ data_to_sdram[14] <= data_to_sdram[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 data_to_sdram[15] <= data_to_sdram[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|DIP_rgb2ycrcb:DIP_rgb2ycrcb_inst
+|OV5640_VGA_SOBEL|DIP_rgb2ycrcb:DIP_rgb2ycrcb_inst
 pclk => gray_data[0]~reg0.CLK
 pclk => gray_data[1]~reg0.CLK
 pclk => gray_data[2]~reg0.CLK
@@ -921,7 +921,7 @@ gray_data[6] <= gray_data[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 gray_data[7] <= gray_data[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst
 clk => clk.IN2
 rst_n => rst_n.IN2
 dip_en => dip_en.IN1
@@ -952,7 +952,7 @@ sdram_wr_data[14] <= sobel_detect:sobel_detect_inst.sdram_wr_data
 sdram_wr_data[15] <= sobel_detect:sobel_detect_inst.sdram_wr_data
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst
 clk => clk.IN2
 rst_n => p33[0]~reg0.ACLR
 rst_n => p33[1]~reg0.ACLR
@@ -1195,7 +1195,7 @@ p33[6] <= p33[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 p33[7] <= p33[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1
 clock => clock.IN1
 data[0] => data[0].IN1
 data[1] => data[1].IN1
@@ -1217,7 +1217,7 @@ q[6] <= scfifo:scfifo_component.q
 q[7] <= scfifo:scfifo_component.q
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component
 data[0] => scfifo_u521:auto_generated.data[0]
 data[1] => scfifo_u521:auto_generated.data[1]
 data[2] => scfifo_u521:auto_generated.data[2]
@@ -1256,7 +1256,7 @@ usedw[9] <= <GND>
 usedw[10] <= <GND>
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated
 clock => a_dpfifo_5c21:dpfifo.clock
 data[0] => a_dpfifo_5c21:dpfifo.data[0]
 data[1] => a_dpfifo_5c21:dpfifo.data[1]
@@ -1278,7 +1278,7 @@ rdreq => a_dpfifo_5c21:dpfifo.rreq
 wrreq => a_dpfifo_5c21:dpfifo.wreq
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo
 clock => a_fefifo_sae:fifo_state.clock
 clock => dpram_e811:FIFOram.inclock
 clock => dpram_e811:FIFOram.outclock
@@ -1311,7 +1311,7 @@ wreq => a_fefifo_sae:fifo_state.wreq
 wreq => valid_wreq.IN0
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|a_fefifo_sae:fifo_state
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|a_fefifo_sae:fifo_state
 aclr => b_full.IN0
 aclr => b_non_empty.IN0
 aclr => cntr_pp7:count_usedw.aclr
@@ -1336,7 +1336,7 @@ wreq => _.IN0
 wreq => valid_wreq.IN0
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|a_fefifo_sae:fifo_state|cntr_pp7:count_usedw
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|a_fefifo_sae:fifo_state|cntr_pp7:count_usedw
 aclr => counter_reg_bit[10].IN0
 clock => counter_reg_bit[10].CLK
 clock => counter_reg_bit[9].CLK
@@ -1377,7 +1377,7 @@ updown => counter_comb_bita9.DATAB
 updown => counter_comb_bita10.DATAB
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|dpram_e811:FIFOram
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|dpram_e811:FIFOram
 data[0] => altsyncram_e3k1:altsyncram1.data_a[0]
 data[1] => altsyncram_e3k1:altsyncram1.data_a[1]
 data[2] => altsyncram_e3k1:altsyncram1.data_a[2]
@@ -1422,7 +1422,7 @@ wraddress[10] => altsyncram_e3k1:altsyncram1.address_a[10]
 wren => altsyncram_e3k1:altsyncram1.wren_a
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|dpram_e811:FIFOram|altsyncram_e3k1:altsyncram1
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|dpram_e811:FIFOram|altsyncram_e3k1:altsyncram1
 address_a[0] => ram_block2a0.PORTAADDR
 address_a[0] => ram_block2a1.PORTAADDR
 address_a[0] => ram_block2a2.PORTAADDR
@@ -1657,7 +1657,7 @@ wren_a => ram_block2a7.PORTAWE
 wren_a => ram_block2a7.ENA0
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|cntr_dpb:rd_ptr_count
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|cntr_dpb:rd_ptr_count
 aclr => counter_reg_bit[10].IN0
 clock => counter_reg_bit[10].CLK
 clock => counter_reg_bit[9].CLK
@@ -1687,7 +1687,7 @@ sclr => _.IN0
 sclr => _.IN0
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|cntr_dpb:wr_ptr
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst1|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|cntr_dpb:wr_ptr
 aclr => counter_reg_bit[10].IN0
 clock => counter_reg_bit[10].CLK
 clock => counter_reg_bit[9].CLK
@@ -1717,7 +1717,7 @@ sclr => _.IN0
 sclr => _.IN0
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2
 clock => clock.IN1
 data[0] => data[0].IN1
 data[1] => data[1].IN1
@@ -1739,7 +1739,7 @@ q[6] <= scfifo:scfifo_component.q
 q[7] <= scfifo:scfifo_component.q
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component
 data[0] => scfifo_u521:auto_generated.data[0]
 data[1] => scfifo_u521:auto_generated.data[1]
 data[2] => scfifo_u521:auto_generated.data[2]
@@ -1778,7 +1778,7 @@ usedw[9] <= <GND>
 usedw[10] <= <GND>
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated
 clock => a_dpfifo_5c21:dpfifo.clock
 data[0] => a_dpfifo_5c21:dpfifo.data[0]
 data[1] => a_dpfifo_5c21:dpfifo.data[1]
@@ -1800,7 +1800,7 @@ rdreq => a_dpfifo_5c21:dpfifo.rreq
 wrreq => a_dpfifo_5c21:dpfifo.wreq
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo
 clock => a_fefifo_sae:fifo_state.clock
 clock => dpram_e811:FIFOram.inclock
 clock => dpram_e811:FIFOram.outclock
@@ -1833,7 +1833,7 @@ wreq => a_fefifo_sae:fifo_state.wreq
 wreq => valid_wreq.IN0
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|a_fefifo_sae:fifo_state
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|a_fefifo_sae:fifo_state
 aclr => b_full.IN0
 aclr => b_non_empty.IN0
 aclr => cntr_pp7:count_usedw.aclr
@@ -1858,7 +1858,7 @@ wreq => _.IN0
 wreq => valid_wreq.IN0
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|a_fefifo_sae:fifo_state|cntr_pp7:count_usedw
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|a_fefifo_sae:fifo_state|cntr_pp7:count_usedw
 aclr => counter_reg_bit[10].IN0
 clock => counter_reg_bit[10].CLK
 clock => counter_reg_bit[9].CLK
@@ -1899,7 +1899,7 @@ updown => counter_comb_bita9.DATAB
 updown => counter_comb_bita10.DATAB
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|dpram_e811:FIFOram
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|dpram_e811:FIFOram
 data[0] => altsyncram_e3k1:altsyncram1.data_a[0]
 data[1] => altsyncram_e3k1:altsyncram1.data_a[1]
 data[2] => altsyncram_e3k1:altsyncram1.data_a[2]
@@ -1944,7 +1944,7 @@ wraddress[10] => altsyncram_e3k1:altsyncram1.address_a[10]
 wren => altsyncram_e3k1:altsyncram1.wren_a
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|dpram_e811:FIFOram|altsyncram_e3k1:altsyncram1
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|dpram_e811:FIFOram|altsyncram_e3k1:altsyncram1
 address_a[0] => ram_block2a0.PORTAADDR
 address_a[0] => ram_block2a1.PORTAADDR
 address_a[0] => ram_block2a2.PORTAADDR
@@ -2179,7 +2179,7 @@ wren_a => ram_block2a7.PORTAWE
 wren_a => ram_block2a7.ENA0
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|cntr_dpb:rd_ptr_count
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|cntr_dpb:rd_ptr_count
 aclr => counter_reg_bit[10].IN0
 clock => counter_reg_bit[10].CLK
 clock => counter_reg_bit[9].CLK
@@ -2209,7 +2209,7 @@ sclr => _.IN0
 sclr => _.IN0
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|cntr_dpb:wr_ptr
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|get_3x3_matrix:get_3x3_matrix_inst|fifo:fifo_inst2|scfifo:scfifo_component|scfifo_u521:auto_generated|a_dpfifo_5c21:dpfifo|cntr_dpb:wr_ptr
 aclr => counter_reg_bit[10].IN0
 clock => counter_reg_bit[10].CLK
 clock => counter_reg_bit[9].CLK
@@ -2239,7 +2239,7 @@ sclr => _.IN0
 sclr => _.IN0
 
 
-|OV5640_VGA|DIP_sobel:DIP_sobel_inst|sobel_detect:sobel_detect_inst
+|OV5640_VGA_SOBEL|DIP_sobel:DIP_sobel_inst|sobel_detect:sobel_detect_inst
 clk => sdram_wr_en~reg0.CLK
 clk => data_en_dly3.CLK
 clk => data_en_dly2.CLK
@@ -2456,7 +2456,7 @@ sdram_wr_data[14] <= sdram_wr_data[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 sdram_wr_data[15] <= sdram_wr_data[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST
 clk => clk.IN2
 rst_n => rst_n.IN2
 clk_out => sdram_clk.DATAIN
@@ -2667,7 +2667,7 @@ sdram_dq[14] <> SDRAM_CTRL:SDRAM_CTRL_INST.sdram_dq
 sdram_dq[15] <> SDRAM_CTRL:SDRAM_CTRL_INST.sdram_dq
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST
 clk => clk.IN2
 rst_n => sdram_wr_addr[0]~reg0.ACLR
 rst_n => sdram_wr_addr[1]~reg0.ACLR
@@ -3112,7 +3112,7 @@ sdram_data_out[14] => sdram_data_out[14].IN1
 sdram_data_out[15] => sdram_data_out[15].IN1
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr
 aclr => aclr.IN1
 data[0] => data[0].IN1
 data[1] => data[1].IN1
@@ -3178,7 +3178,7 @@ wrusedw[10] <= dcfifo:dcfifo_component.wrusedw
 wrusedw[11] <= dcfifo:dcfifo_component.wrusedw
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component
 data[0] => dcfifo_qql1:auto_generated.data[0]
 data[1] => dcfifo_qql1:auto_generated.data[1]
 data[2] => dcfifo_qql1:auto_generated.data[2]
@@ -3246,7 +3246,7 @@ wrusedw[10] <= dcfifo_qql1:auto_generated.wrusedw[10]
 wrusedw[11] <= dcfifo_qql1:auto_generated.wrusedw[11]
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated
 aclr => a_graycounter_877:rdptr_g1p.aclr
 aclr => a_graycounter_4lc:wrptr_g1p.aclr
 aclr => altsyncram_im31:fifo_ram.aclr1
@@ -3370,7 +3370,7 @@ wrusedw[10] <= op_2.DB_MAX_OUTPUT_PORT_TYPE
 wrusedw[11] <= op_2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:rdptr_g_gray2bin
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:rdptr_g_gray2bin
 bin[0] <= xor0.DB_MAX_OUTPUT_PORT_TYPE
 bin[1] <= xor1.DB_MAX_OUTPUT_PORT_TYPE
 bin[2] <= xor2.DB_MAX_OUTPUT_PORT_TYPE
@@ -3400,7 +3400,7 @@ gray[12] => bin[12].DATAIN
 gray[12] => xor11.IN0
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:rs_dgwp_gray2bin
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:rs_dgwp_gray2bin
 bin[0] <= xor0.DB_MAX_OUTPUT_PORT_TYPE
 bin[1] <= xor1.DB_MAX_OUTPUT_PORT_TYPE
 bin[2] <= xor2.DB_MAX_OUTPUT_PORT_TYPE
@@ -3430,7 +3430,7 @@ gray[12] => bin[12].DATAIN
 gray[12] => xor11.IN0
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:wrptr_g_gray2bin
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:wrptr_g_gray2bin
 bin[0] <= xor0.DB_MAX_OUTPUT_PORT_TYPE
 bin[1] <= xor1.DB_MAX_OUTPUT_PORT_TYPE
 bin[2] <= xor2.DB_MAX_OUTPUT_PORT_TYPE
@@ -3460,7 +3460,7 @@ gray[12] => bin[12].DATAIN
 gray[12] => xor11.IN0
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:ws_dgrp_gray2bin
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:ws_dgrp_gray2bin
 bin[0] <= xor0.DB_MAX_OUTPUT_PORT_TYPE
 bin[1] <= xor1.DB_MAX_OUTPUT_PORT_TYPE
 bin[2] <= xor2.DB_MAX_OUTPUT_PORT_TYPE
@@ -3490,7 +3490,7 @@ gray[12] => bin[12].DATAIN
 gray[12] => xor11.IN0
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_graycounter_877:rdptr_g1p
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_graycounter_877:rdptr_g1p
 aclr => counter5a1.IN0
 aclr => counter5a0.IN0
 aclr => parity6.IN0
@@ -3545,7 +3545,7 @@ q[11] <= counter5a11.DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= counter5a12.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_graycounter_4lc:wrptr_g1p
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_graycounter_4lc:wrptr_g1p
 aclr => counter8a1.IN0
 aclr => counter8a0.IN0
 aclr => parity9.IN0
@@ -3600,7 +3600,7 @@ q[11] <= counter8a11.DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= counter8a12.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|altsyncram_im31:fifo_ram
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|altsyncram_im31:fifo_ram
 aclr1 => ram_block11a0.CLR1
 aclr1 => ram_block11a1.CLR1
 aclr1 => ram_block11a2.CLR1
@@ -4131,7 +4131,7 @@ wren_a => ram_block11a15.PORTAWE
 wren_a => ram_block11a15.ENA0
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:rs_brp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:rs_brp
 clock => dffe12a[12].CLK
 clock => dffe12a[11].CLK
 clock => dffe12a[10].CLK
@@ -4186,7 +4186,7 @@ q[11] <= dffe12a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe12a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:rs_bwp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:rs_bwp
 clock => dffe12a[12].CLK
 clock => dffe12a[11].CLK
 clock => dffe12a[10].CLK
@@ -4241,7 +4241,7 @@ q[11] <= dffe12a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe12a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_tld:rs_dgwp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_tld:rs_dgwp
 clock => dffpipe_se9:dffpipe13.clock
 clrn => dffpipe_se9:dffpipe13.clrn
 d[0] => dffpipe_se9:dffpipe13.d[0]
@@ -4272,7 +4272,7 @@ q[11] <= dffpipe_se9:dffpipe13.q[11]
 q[12] <= dffpipe_se9:dffpipe13.q[12]
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_tld:rs_dgwp|dffpipe_se9:dffpipe13
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_tld:rs_dgwp|dffpipe_se9:dffpipe13
 clock => dffe14a[12].CLK
 clock => dffe14a[11].CLK
 clock => dffe14a[10].CLK
@@ -4353,7 +4353,7 @@ q[11] <= dffe15a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe15a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:ws_brp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:ws_brp
 clock => dffe12a[12].CLK
 clock => dffe12a[11].CLK
 clock => dffe12a[10].CLK
@@ -4408,7 +4408,7 @@ q[11] <= dffe12a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe12a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:ws_bwp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:ws_bwp
 clock => dffe12a[12].CLK
 clock => dffe12a[11].CLK
 clock => dffe12a[10].CLK
@@ -4463,7 +4463,7 @@ q[11] <= dffe12a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe12a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_uld:ws_dgrp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_uld:ws_dgrp
 clock => dffpipe_te9:dffpipe16.clock
 clrn => dffpipe_te9:dffpipe16.clrn
 d[0] => dffpipe_te9:dffpipe16.d[0]
@@ -4494,7 +4494,7 @@ q[11] <= dffpipe_te9:dffpipe16.q[11]
 q[12] <= dffpipe_te9:dffpipe16.q[12]
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_uld:ws_dgrp|dffpipe_te9:dffpipe16
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_uld:ws_dgrp|dffpipe_te9:dffpipe16
 clock => dffe17a[12].CLK
 clock => dffe17a[11].CLK
 clock => dffe17a[10].CLK
@@ -4575,7 +4575,7 @@ q[11] <= dffe18a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe18a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:rdempty_eq_comp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:rdempty_eq_comp
 aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
 dataa[0] => data_wire[2].IN0
 dataa[1] => data_wire[2].IN0
@@ -4605,7 +4605,7 @@ datab[11] => data_wire[7].IN1
 datab[12] => data_wire[8].IN1
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:rdfull_eq_comp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:rdfull_eq_comp
 aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
 dataa[0] => data_wire[2].IN0
 dataa[1] => data_wire[2].IN0
@@ -4635,7 +4635,7 @@ datab[11] => data_wire[7].IN1
 datab[12] => data_wire[8].IN1
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:wrfull_eq_comp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_wr|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:wrfull_eq_comp
 aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
 dataa[0] => data_wire[2].IN0
 dataa[1] => data_wire[2].IN0
@@ -4665,7 +4665,7 @@ datab[11] => data_wire[7].IN1
 datab[12] => data_wire[8].IN1
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd
 aclr => aclr.IN1
 data[0] => data[0].IN1
 data[1] => data[1].IN1
@@ -4731,7 +4731,7 @@ wrusedw[10] <= dcfifo:dcfifo_component.wrusedw
 wrusedw[11] <= dcfifo:dcfifo_component.wrusedw
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component
 data[0] => dcfifo_qql1:auto_generated.data[0]
 data[1] => dcfifo_qql1:auto_generated.data[1]
 data[2] => dcfifo_qql1:auto_generated.data[2]
@@ -4799,7 +4799,7 @@ wrusedw[10] <= dcfifo_qql1:auto_generated.wrusedw[10]
 wrusedw[11] <= dcfifo_qql1:auto_generated.wrusedw[11]
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated
 aclr => a_graycounter_877:rdptr_g1p.aclr
 aclr => a_graycounter_4lc:wrptr_g1p.aclr
 aclr => altsyncram_im31:fifo_ram.aclr1
@@ -4923,7 +4923,7 @@ wrusedw[10] <= op_2.DB_MAX_OUTPUT_PORT_TYPE
 wrusedw[11] <= op_2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:rdptr_g_gray2bin
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:rdptr_g_gray2bin
 bin[0] <= xor0.DB_MAX_OUTPUT_PORT_TYPE
 bin[1] <= xor1.DB_MAX_OUTPUT_PORT_TYPE
 bin[2] <= xor2.DB_MAX_OUTPUT_PORT_TYPE
@@ -4953,7 +4953,7 @@ gray[12] => bin[12].DATAIN
 gray[12] => xor11.IN0
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:rs_dgwp_gray2bin
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:rs_dgwp_gray2bin
 bin[0] <= xor0.DB_MAX_OUTPUT_PORT_TYPE
 bin[1] <= xor1.DB_MAX_OUTPUT_PORT_TYPE
 bin[2] <= xor2.DB_MAX_OUTPUT_PORT_TYPE
@@ -4983,7 +4983,7 @@ gray[12] => bin[12].DATAIN
 gray[12] => xor11.IN0
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:wrptr_g_gray2bin
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:wrptr_g_gray2bin
 bin[0] <= xor0.DB_MAX_OUTPUT_PORT_TYPE
 bin[1] <= xor1.DB_MAX_OUTPUT_PORT_TYPE
 bin[2] <= xor2.DB_MAX_OUTPUT_PORT_TYPE
@@ -5013,7 +5013,7 @@ gray[12] => bin[12].DATAIN
 gray[12] => xor11.IN0
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:ws_dgrp_gray2bin
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_gray2bin_9ib:ws_dgrp_gray2bin
 bin[0] <= xor0.DB_MAX_OUTPUT_PORT_TYPE
 bin[1] <= xor1.DB_MAX_OUTPUT_PORT_TYPE
 bin[2] <= xor2.DB_MAX_OUTPUT_PORT_TYPE
@@ -5043,7 +5043,7 @@ gray[12] => bin[12].DATAIN
 gray[12] => xor11.IN0
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_graycounter_877:rdptr_g1p
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_graycounter_877:rdptr_g1p
 aclr => counter5a1.IN0
 aclr => counter5a0.IN0
 aclr => parity6.IN0
@@ -5098,7 +5098,7 @@ q[11] <= counter5a11.DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= counter5a12.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_graycounter_4lc:wrptr_g1p
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|a_graycounter_4lc:wrptr_g1p
 aclr => counter8a1.IN0
 aclr => counter8a0.IN0
 aclr => parity9.IN0
@@ -5153,7 +5153,7 @@ q[11] <= counter8a11.DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= counter8a12.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|altsyncram_im31:fifo_ram
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|altsyncram_im31:fifo_ram
 aclr1 => ram_block11a0.CLR1
 aclr1 => ram_block11a1.CLR1
 aclr1 => ram_block11a2.CLR1
@@ -5684,7 +5684,7 @@ wren_a => ram_block11a15.PORTAWE
 wren_a => ram_block11a15.ENA0
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:rs_brp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:rs_brp
 clock => dffe12a[12].CLK
 clock => dffe12a[11].CLK
 clock => dffe12a[10].CLK
@@ -5739,7 +5739,7 @@ q[11] <= dffe12a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe12a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:rs_bwp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:rs_bwp
 clock => dffe12a[12].CLK
 clock => dffe12a[11].CLK
 clock => dffe12a[10].CLK
@@ -5794,7 +5794,7 @@ q[11] <= dffe12a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe12a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_tld:rs_dgwp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_tld:rs_dgwp
 clock => dffpipe_se9:dffpipe13.clock
 clrn => dffpipe_se9:dffpipe13.clrn
 d[0] => dffpipe_se9:dffpipe13.d[0]
@@ -5825,7 +5825,7 @@ q[11] <= dffpipe_se9:dffpipe13.q[11]
 q[12] <= dffpipe_se9:dffpipe13.q[12]
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_tld:rs_dgwp|dffpipe_se9:dffpipe13
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_tld:rs_dgwp|dffpipe_se9:dffpipe13
 clock => dffe14a[12].CLK
 clock => dffe14a[11].CLK
 clock => dffe14a[10].CLK
@@ -5906,7 +5906,7 @@ q[11] <= dffe15a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe15a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:ws_brp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:ws_brp
 clock => dffe12a[12].CLK
 clock => dffe12a[11].CLK
 clock => dffe12a[10].CLK
@@ -5961,7 +5961,7 @@ q[11] <= dffe12a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe12a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:ws_bwp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|dffpipe_re9:ws_bwp
 clock => dffe12a[12].CLK
 clock => dffe12a[11].CLK
 clock => dffe12a[10].CLK
@@ -6016,7 +6016,7 @@ q[11] <= dffe12a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe12a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_uld:ws_dgrp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_uld:ws_dgrp
 clock => dffpipe_te9:dffpipe16.clock
 clrn => dffpipe_te9:dffpipe16.clrn
 d[0] => dffpipe_te9:dffpipe16.d[0]
@@ -6047,7 +6047,7 @@ q[11] <= dffpipe_te9:dffpipe16.q[11]
 q[12] <= dffpipe_te9:dffpipe16.q[12]
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_uld:ws_dgrp|dffpipe_te9:dffpipe16
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|alt_synch_pipe_uld:ws_dgrp|dffpipe_te9:dffpipe16
 clock => dffe17a[12].CLK
 clock => dffe17a[11].CLK
 clock => dffe17a[10].CLK
@@ -6128,7 +6128,7 @@ q[11] <= dffe18a[11].DB_MAX_OUTPUT_PORT_TYPE
 q[12] <= dffe18a[12].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:rdempty_eq_comp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:rdempty_eq_comp
 aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
 dataa[0] => data_wire[2].IN0
 dataa[1] => data_wire[2].IN0
@@ -6158,7 +6158,7 @@ datab[11] => data_wire[7].IN1
 datab[12] => data_wire[8].IN1
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:rdfull_eq_comp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:rdfull_eq_comp
 aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
 dataa[0] => data_wire[2].IN0
 dataa[1] => data_wire[2].IN0
@@ -6188,7 +6188,7 @@ datab[11] => data_wire[7].IN1
 datab[12] => data_wire[8].IN1
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:wrfull_eq_comp
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_FIFO:SDRAM_FIFO_INST|sdram_fifo:sdram_fifo_rd|dcfifo:dcfifo_component|dcfifo_qql1:auto_generated|cmpr_q76:wrfull_eq_comp
 aeb <= aeb_result_wire[0].DB_MAX_OUTPUT_PORT_TYPE
 dataa[0] => data_wire[2].IN0
 dataa[1] => data_wire[2].IN0
@@ -6218,7 +6218,7 @@ datab[11] => data_wire[7].IN1
 datab[12] => data_wire[8].IN1
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST
 clk => clk.IN5
 rst_n => rst_n.IN5
 init_end <= init_end.DB_MAX_OUTPUT_PORT_TYPE
@@ -6380,7 +6380,7 @@ sdram_dq[15] <> SDRAM_ARBIT:SDRAN_ARBIT_INST.sdram_dq
 sdram_dq[15] <> SDRAM_RD:SDRAM_RD_ISNT.rd_data
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_INIT:SDRAM_INIT_INST
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_INIT:SDRAM_INIT_INST
 clk => init_end~reg0.CLK
 clk => init_addr[0]~reg0.CLK
 clk => init_addr[1]~reg0.CLK
@@ -6495,7 +6495,7 @@ init_addr[12] <= init_addr[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 init_end <= init_end~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_ARBIT:SDRAN_ARBIT_INST
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_ARBIT:SDRAN_ARBIT_INST
 clk => rd_en~reg0.CLK
 clk => wr_en~reg0.CLK
 clk => aref_en~reg0.CLK
@@ -6678,7 +6678,7 @@ sdram_dq[15] <> sdram_dq[15]
 sdram_cke <= <VCC>
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_AREF:SDRAM_AREF_INST
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_AREF:SDRAM_AREF_INST
 clk => aref_end~reg0.CLK
 clk => aref_addr[0]~reg0.CLK
 clk => aref_addr[1]~reg0.CLK
@@ -6793,7 +6793,7 @@ aref_end <= aref_end~reg0.DB_MAX_OUTPUT_PORT_TYPE
 aref_req <= aref_req~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_RD:SDRAM_RD_ISNT
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_RD:SDRAM_RD_ISNT
 clk => rd_sdram_addr[0]~reg0.CLK
 clk => rd_sdram_addr[1]~reg0.CLK
 clk => rd_sdram_addr[2]~reg0.CLK
@@ -7005,7 +7005,7 @@ rd_sdram_data[14] <= rd_sdram_data.DB_MAX_OUTPUT_PORT_TYPE
 rd_sdram_data[15] <= rd_sdram_data.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_WR:SDRAM_WR_INST
+|OV5640_VGA_SOBEL|SDRAM:SDRAM_INST|SDRAM_CTRL:SDRAM_CTRL_INST|SDRAM_WR:SDRAM_WR_INST
 clk => wr_sdram_en~reg0.CLK
 clk => wr_sdram_addr[0]~reg0.CLK
 clk => wr_sdram_addr[1]~reg0.CLK
@@ -7176,7 +7176,7 @@ wr_sdram_data[14] <= wr_sdram_data.DB_MAX_OUTPUT_PORT_TYPE
 wr_sdram_data[15] <= wr_sdram_data.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|OV5640_VGA|VGA_CTRL:VGA_CTRL_INST
+|OV5640_VGA_SOBEL|VGA_CTRL:VGA_CTRL_INST
 clk => y_loc[0]~reg0.CLK
 clk => y_loc[1]~reg0.CLK
 clk => y_loc[2]~reg0.CLK

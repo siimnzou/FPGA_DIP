@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2022.06.15.16:28:45"
- outputDirectory="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/">
+ date="2022.06.17.15:53:10"
+ outputDirectory="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/">
  <perimeter>
   <parameter
      name="AUTO_DEVICE_FAMILY"
@@ -48,33 +48,33 @@
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="" />
   <generatedFiles>
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/alt_sld_fab.v"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/alt_sld_fab.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab.v"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab.v"
        type="VERILOG" />
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_presplit.sv"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_presplit.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_splitter.sv"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_splitter.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_ident.sv"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_ident.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/alt_sld_fab_wrapper_hw.tcl" />
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/alt_sld_fab_wrapper_hw.tcl" />
   </sourceFiles>
   <childSourceFiles>
    <file
@@ -164,24 +164,24 @@
   <parameter name="MIRROR" value="0" />
   <generatedFiles>
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab.v"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_presplit.sv"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_presplit.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_splitter.sv"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_splitter.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd"
        type="VHDL"
        attributes="" />
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_ident.sv"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_ident.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
   </childGeneratedFiles>
@@ -251,7 +251,7 @@
   <parameter name="RECEIVE_WIDTHS" value="33" />
   <generatedFiles>
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_presplit.sv"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_presplit.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
   </generatedFiles>
@@ -281,7 +281,7 @@
   <parameter name="ADD_INTERFACE_ASGN" value="0" />
   <generatedFiles>
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_splitter.sv"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_splitter.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
   </generatedFiles>
@@ -320,7 +320,7 @@
   <parameter name="FORCE_IR_CAPTURE_FEATURE" value="1" />
   <generatedFiles>
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd"
        type="VHDL"
        attributes="" />
   </generatedFiles>
@@ -348,7 +348,7 @@
   <parameter name="DESIGN_HASH" value="c908df6f4ca73a9d84ef" />
   <generatedFiles>
    <file
-       path="G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_ident.sv"
+       path="G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/ip/sld7f924502/submodules/alt_sld_fab_alt_sld_fab_ident.sv"
        type="SYSTEM_VERILOG"
        attributes="TOP_LEVEL_FILE" />
   </generatedFiles>

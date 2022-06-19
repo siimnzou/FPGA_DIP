@@ -8,62 +8,62 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim
+Z0 dG:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim
 T_opt
-!s110 1655281470
-Vz_Ha6G@jgiJI]TKGL^1<z1
+!s110 1655456826
+Vj:j84Rg48Y;BNhmn_hJ4k2
 04 17 4 work tb_get_3x3_matrix fast 0
-=1-002b67689534-62a9973e-10a-8198
+=1-002b67689534-62ac443a-88-49b0
 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2019.2;69
 vCLK_GEN
-Z2 !s110 1655281468
+Z2 !s110 1655456823
 !i10b 1
 !s100 k2:8_5Rz1gSnQIPGC:]=<3
 !s11b QfQVgWPAnXj[zaBKUe2ij0
-I3cTG_[ZIW_?<Y:7>_1SVz2
+IGJ^f6nN_VaV`jMGX]1_<<2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1649929469
-8G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v
 Z4 L0 40
 Z5 OL;L;2019.2;69
 r1
 !s85 0
 31
-Z6 !s108 1655281468.000000
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen|G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v|
+Z6 !s108 1655456823.000000
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen|G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v|
 !i113 0
 Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z8 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 n@c@l@k_@g@e@n
 vCLK_GEN_altpll
-Z9 !s110 1655281469
+Z9 !s110 1655456825
 !i10b 1
 !s100 cK>YV[fmY?3O@=0mg[iPI2
 !s11b kLEFnPQ`8T0Xi=WiI7d6o2
-I_OdfSlm2UFhC;2Q>YgT[H0
+I;2VeWGeTH?eG3BjZjL[]U3
 R3
 R0
 w1651047671
-8G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_gen_altpll.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_gen_altpll.v
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_gen_altpll.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_gen_altpll.v
 Z10 L0 31
 R5
 r1
 !s85 0
 31
-Z11 !s108 1655281469.000000
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_gen_altpll.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db|G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_gen_altpll.v|
+Z11 !s108 1655456824.000000
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_gen_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db|G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_gen_altpll.v|
 !i113 0
 R7
-Z12 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 n@c@l@k_@g@e@n_altpll
 vCLK_VGA
@@ -71,20 +71,20 @@ R2
 !i10b 1
 !s100 NzcY:EcK`XWT>BKDYYa_d3
 !s11b J5gKn06O=;YZLJ4F99@1G2
-IW[g^Xn34e2;CEGLTDPdW23
+IdV[=j>TA^f`Vz_adFTS>Y3
 R3
 R0
 w1655087905
-8G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v
 R4
 R5
 r1
 !s85 0
 31
 R6
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen|G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v|
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen|G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v|
 !i113 0
 R7
 R8
@@ -95,68 +95,68 @@ R9
 !i10b 1
 !s100 BJ[2[`FD;HoM=HFl3J^Pd0
 !s11b Delkc_=E2`aYDiGT6Ez2Z1
-IJ:Zd8MC[e^8bOmzdL1hkY3
+ID`<[aUG?AQ;IC`@2M60X<0
 R3
 R0
 w1655088198
-8G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_vga_altpll.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_vga_altpll.v
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_vga_altpll.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_vga_altpll.v
 R10
 R5
 r1
 !s85 0
 31
-R11
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_vga_altpll.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db|G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_vga_altpll.v|
+Z13 !s108 1655456825.000000
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_vga_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db|G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_vga_altpll.v|
 !i113 0
 R7
 R12
 R1
 n@c@l@k_@v@g@a_altpll
 vDIP_rgb2ycrcb
-Z13 !s110 1655281467
+R2
 !i10b 1
-!s100 J^nRijPgHUEBW;SGLof>40
+!s100 cX]Ez1He1ldc9^0N`j`A<1
 !s11b ZPBnBo3VY3bbl_4T9oiHE3
-I><eZTf9^7m`Km;i4d6=;l1
+IWHf[Z49^8L<E7>H7ezj<e3
 R3
 R0
-w1655201917
-8G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_rgb2ycrcb.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_rgb2ycrcb.v
-L0 1
+w1655282920
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_rgb2ycrcb.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_rgb2ycrcb.v
+Z14 L0 12
 R5
 r1
 !s85 0
 31
-Z14 !s108 1655281467.000000
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_rgb2ycrcb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL|G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_rgb2ycrcb.v|
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_rgb2ycrcb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL|G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_rgb2ycrcb.v|
 !i113 0
 R7
-Z15 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z15 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 n@d@i@p_rgb2ycrcb
 vDIP_sobel
-R13
+Z16 !s110 1655456822
 !i10b 1
-!s100 g15`:nB[]N4]3HGdQaLGa1
+!s100 kR=ITDOc^mH0d]`iI[jWL0
 !s11b =M1DzSZI69zEl<hjz_@EM2
-IB2^O:ETmPTjMD_m3mM^S<1
+IcL<j=Lg7=i35V69]=hB2g1
 R3
 R0
-w1655279516
-8G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_sobel.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_sobel.v
-L0 1
+w1655282954
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_sobel.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_sobel.v
+R14
 R5
 r1
 !s85 0
 31
-R14
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_sobel.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL|G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_sobel.v|
+Z17 !s108 1655456822.000000
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_sobel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL|G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_sobel.v|
 !i113 0
 R7
 R15
@@ -167,162 +167,162 @@ R9
 !i10b 1
 !s100 <3fRO7CY3KRH<hVUe]kQO1
 !s11b M:CdX@djeNR4[l`;DmnSa2
-II<0WdHhEl04Z3c=LjE6kf1
+I@nb8h;V7S81^F3@FzB_1Y3
 R3
 R0
 w1655201834
-8G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo/fifo.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo/fifo.v
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo/fifo.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo/fifo.v
 R4
 R5
 r1
 !s85 0
 31
-R11
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo/fifo.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo|G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo/fifo.v|
+R13
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo/fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo|G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo/fifo.v|
 !i113 0
 R7
-!s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vget_3x3_matrix
 R9
 !i10b 1
-!s100 J241Tghco>@JB]dUfLZU02
+!s100 Z6Z[NUdFhkLi4g`Cz7DZd1
 !s11b dc=c5BhCEIXCC6C4oa]LZ1
-IYlZ;cLjY2GjEDcaie[Zzb3
+Ic6I]Nf<R75P4YMbSl_miM0
 R3
 R0
-w1655279604
-8G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v
-L0 1
+w1655283275
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v
+R14
 R5
 r1
 !s85 0
 31
-R11
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL|G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v|
+R13
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL|G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v|
 !i113 0
 R7
-Z16 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z18 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vIIC_CTRL
-R9
+Z19 !s110 1655456824
 !i10b 1
 !s100 DX9F9N0_S:EMJXJSGV05k1
 !s11b manoJoM8L`G`K18=l?K0;1
-IgMhA=Ufah@6f?EDYlLl[H1
+I?kFFUL81=mPD1Njg[OQaK0
 R3
 R0
 w1651064300
-8G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/IIC_CTRL.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/RTL/IIC_CTRL.v
-Z17 L0 11
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/IIC_CTRL.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/IIC_CTRL.v
+Z20 L0 11
 R5
 r1
 !s85 0
 31
 R11
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/IIC_CTRL.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL|G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/IIC_CTRL.v|
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/IIC_CTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/IIC_CTRL.v|
 !i113 0
 R7
-Z18 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z21 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 n@i@i@c_@c@t@r@l
 vOV5640_CFG
-R9
+R19
 !i10b 1
 !s100 lQSlHizc4K5?zdT`cTW[W1
 !s11b KhOjlP<Bf9>PBNMLm?>7M3
-IVUD4TK?7`]_Z1W?4GCZE63
+I:@QJ>=]Fk7bFeV^Hb_j_k3
 R3
 R0
 w1651063771
-8G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CFG.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CFG.v
-R17
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CFG.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CFG.v
+R20
 R5
 r1
 !s85 0
 31
 R11
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CFG.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL|G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CFG.v|
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CFG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CFG.v|
 !i113 0
 R7
-R18
+R21
 R1
 n@o@v5640_@c@f@g
 vOV5640_CTRL
-R9
+R19
 !i10b 1
 !s100 QDWU?2WhC<=f;5N7GNiee2
 !s11b BFFZA0NW5f_ZE;zOh3VlE0
-IH8?XcR[jM8Z4d52k=GnUe0
+Iz^iV5_`FW5S:D06nnWePd1
 R3
 R0
 w1655176633
-8G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CTRL.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CTRL.v
-L0 15
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CTRL.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CTRL.v
+Z22 L0 15
 R5
 r1
 !s85 0
 31
 R11
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CTRL.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL|G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CTRL.v|
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CTRL.v|
 !i113 0
 R7
-R18
+R21
 R1
 n@o@v5640_@c@t@r@l
 vOV5640_DATA
-R9
+R19
 !i10b 1
 !s100 F:]U>gRzFUV3^c1TKShaL1
 !s11b le>amDL4QT:nmZl?Zf^]I1
-IQN=<`ILcQd8BTVV[k0C<H3
+IlOlQlDdJ5f8bBWzHW6C:>0
 R3
 R0
 w1651051481
-8G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_DATA.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_DATA.v
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_DATA.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_DATA.v
 L0 1
 R5
 r1
 !s85 0
 31
 R11
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_DATA.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL|G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_DATA.v|
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_DATA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_DATA.v|
 !i113 0
 R7
-R18
+R21
 R1
 n@o@v5640_@d@a@t@a
 vOV5640_REG_CFG
-R9
+R19
 !i10b 1
 !s100 GGP4aX;`dIYnecW9oDgDl0
 !s11b HDGdcl:_:=@6]]51Q]T=j2
-IWF[W[VD<==UV68WNP`ik60
+I_4jM1KAQMH_18^Z[GgXGo1
 R3
 R0
 w1655087939
-8G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_REG_CFG.v
-FG:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_REG_CFG.v
-Z19 L0 14
+8G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_REG_CFG.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_REG_CFG.v
+Z23 L0 14
 R5
 r1
 !s85 0
 31
-R6
-!s107 G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_REG_CFG.v|
-!s90 -reportprm255
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_REG_CFG.v|
+!s90 -reportprogress|300|-vlog01cm255
 K4
 z2
 !s11f vlog 2019.2 2019.04, Apr 17 2019
@@ -332,17 +332,17 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim
+dG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim
 valtera_arriav_pll
-Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1655281464
+Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1655456819
 !i10b 1
 !s100 DT6<143hm5RGNneOzd0E:1
 !s11b ?I=zJWM>F2KLXaCMe06E13
 IMW0aKmB2G;>mKHcab:UI<1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 S1
-R0
+Z2 dG:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim
 Z3 w1429759106
 Z4 8d:/fpga/quartus 2/quartus/eda/sim_lib/altera_lnsim.sv
 Z5 Fd:/fpga/quartus 2/quartus/eda/sim_lib/altera_lnsim.sv
@@ -351,22 +351,22 @@ Z6 OL;L;2019.2;69
 r1
 !s85 0
 31
-Z7 !s108 1655281462.000000
+Z7 !s108 1655456817.000000
 Z8 !s107 d:/fpga/quartus 2/quartus/eda/sim_lib/altera_lnsim.sv|
 Z9 !s90 -reportprogress|300|-sv|-work|altera_lnsim_ver|d:/fpga/quartus 2/quartus/eda/sim_lib/altera_lnsim.sv|
 !i113 0
 Z10 o-sv -work altera_lnsim_ver -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z11 tCvgOpt 0
 valtera_arriavgz_pll
-R1
-!s110 1655281465
+R0
+!s110 1655456820
 !i10b 1
 !s100 lkU5UHG4idS9=M]jhTo]`3
 !s11b g?9oGT]4lVbD0eVKO9cOD2
 Ig5Kbe^432`c?8ca[Uc1:D3
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -382,15 +382,15 @@ R9
 R10
 R11
 valtera_cyclonev_pll
-R1
-Z12 !s110 1655281466
+R0
+Z12 !s110 1655456821
 !i10b 1
 !s100 U28CYWVBZcnEfcS5XFoj]3
 !s11b Igb2_Q:25eE9W5`oQB00z3
 I>C7;dIBB?<SjCNnNS^;d61
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -406,15 +406,15 @@ R9
 R10
 R11
 Xaltera_generic_pll_functions
-R1
-Z13 !s110 1655281462
+R0
+Z13 !s110 1655456817
 !i10b 1
 !s100 P9O^b2L78XIk]m2PG?Xki1
 !s11b YLF;:g[a>b_e65UcG9b=O0
 I7M>hF=gWTi<F=T5eU;`Yn3
 V7M>hF=gWTi<F=T5eU;`Yn3
 S1
-R0
+R2
 R3
 R4
 R5
@@ -430,7 +430,7 @@ R9
 R10
 R11
 Xaltera_lnsim_functions
-R1
+R0
 R13
 !i10b 1
 !s100 3;gAkkSa3C6doTT`Fol`h0
@@ -438,7 +438,7 @@ R13
 IO:EFJN]Ua3T>obPMF_=AO3
 VO:EFJN]Ua3T>obPMF_=AO3
 S1
-R0
+R2
 R3
 R4
 R5
@@ -454,15 +454,15 @@ R9
 R10
 R11
 vALTERA_LNSIM_MEMORY_INITIALIZATION
-R1
+R0
 R13
 !i10b 1
 !s100 W;mSU2@1Ql8PRkCAM?>Y?2
 !s11b JUHjS9fW8d8ac[KA@fKE62
 Ic8dl=mHj7oiFa[ZXThXH<3
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -479,15 +479,15 @@ R10
 R11
 n@a@l@t@e@r@a_@l@n@s@i@m_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
 valtera_mult_add
-R1
+R0
 R13
 !i10b 1
 !s100 YZelQ@M3A;WD]_ZCV;VXT2
 !s11b dfJJKYmk]gEN8DzohA87z0
 IY5Z;Y=ohi1nZR;]F3g6]81
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -503,15 +503,15 @@ R9
 R10
 R11
 valtera_mult_add_rtl
-R1
+R0
 R13
 !i10b 1
 !s100 PjeV5=`RAK=5JzJ_1iUVC1
 !s11b na5A@Z1;gJ:9<F2cTm2MR2
 Ii7hM_X>F;lMB6T2f5][<b1
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -527,16 +527,16 @@ R9
 R10
 R11
 valtera_pll
-R1
+R0
 Z14 DXx4 work 22 altera_lnsim_functions 0 22 O:EFJN]Ua3T>obPMF_=AO3
 R12
 !i10b 1
 !s100 OZz=OXocVa1CLBi2XaVnN1
 !s11b TFMCNd<_FmZX<1jEnl>;[1
 IZ5;]OiOz2D>=c]ebQbaDC2
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -552,15 +552,15 @@ R9
 R10
 R11
 valtera_pll_dps_lcell_comb
-R1
+R0
 R12
 !i10b 1
 !s100 9_eF3@?WFOcSIJ[UQ2[781
 !s11b kDagMV6a1T66>1RU5UmiJ2
 INHZ]>1WS=z=3CG;ioc1PS0
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -576,15 +576,15 @@ R9
 R10
 R11
 valtera_pll_reconfig_tasks
-R1
+R0
 R13
 !i10b 1
 !s100 IoePS=GD6POUTbnVCXI2T2
 !s11b <Y]ebaV4X9Goa[TEbzNlQ3
 Ikm7iHQZYocmmz]JZXLMWj3
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -600,15 +600,15 @@ R9
 R10
 R11
 valtera_stratixv_pll
-R1
-!s110 1655281463
+R0
+!s110 1655456818
 !i10b 1
 !s100 3hOEC_Z`N@>MehfI<1I[=2
 !s11b Pf[?Zl8D^XAVoZRaN>=Gd2
 I66Af[=GANffz?aKF:RJ<z3
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -624,15 +624,15 @@ R9
 R10
 R11
 valtera_syncram
-R1
+R0
 R13
 !i10b 1
 !s100 C]QaKaX2]ARV0KFYTlo>`2
 !s11b HnTj7[2VC=M@XS]]3LPKZ3
 ITh=Q<>0C_zk50KH<AiBB?1
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -648,15 +648,15 @@ R9
 R10
 R11
 vama_adder_function
-R1
+R0
 R13
 !i10b 1
 !s100 _:B;`Q``5PNQkTSTl:`Y92
 !s11b =`L5_`:==jJNIK3H1l;bF1
 IE?jaY3dcTd:n257`ThF<^1
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -672,15 +672,15 @@ R9
 R10
 R11
 vama_chainout_adder_accumulator_function
-R1
+R0
 R13
 !i10b 1
 !s100 9SPC]9Q<laY=AMTMOkhlB0
 !s11b IF>b7=G[AH5[G5F24ZRDR1
 IYQbC0]IIoTln>DPlBg54B0
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -696,15 +696,15 @@ R9
 R10
 R11
 vama_coef_reg_ext_function
-R1
+R0
 R13
 !i10b 1
 !s100 fjMNS41O4IQX7KXQE;jS?2
 !s11b eoAaTzBj7ZRh^f=48S]cE3
 Ii`95m:3aCkRzbJXfXOHbO3
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -720,15 +720,15 @@ R9
 R10
 R11
 vama_data_split_reg_ext_function
-R1
+R0
 R13
 !i10b 1
 !s100 o[fkcU:UBW[;K>]?7Ai]T2
 !s11b W80QfB4Uh`il7ljVJiP2?0
 I5^m<hd?@e5GZ:hT:WI?_P2
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -744,15 +744,15 @@ R9
 R10
 R11
 vama_dynamic_signed_function
-R1
+R0
 R13
 !i10b 1
 !s100 l7iQhXCDS;IG3VoH88]`P2
 !s11b b9QO^TLbb3557[FFIb`DE2
 IPP79?GXUa=>2SBj>n9TB53
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -768,15 +768,15 @@ R9
 R10
 R11
 vama_latency_function
-R1
+R0
 R13
 !i10b 1
 !s100 cj6aB@5PLozjo_9iZ[?4H0
 !s11b JGjDOXzi[z;46_XTlSTFI3
 IC`=SDoGdG81hfIieQIGC23
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -792,15 +792,15 @@ R9
 R10
 R11
 vama_multiplier_function
-R1
+R0
 R13
 !i10b 1
 !s100 LGUk@ckjdNNgokcQYG;dK0
 !s11b U8Jl]D8=neSCz`:G0F[G@0
 IX6?N;f^]l70cf0^9Zkc8A3
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -816,15 +816,15 @@ R9
 R10
 R11
 vama_preadder_function
-R1
+R0
 R13
 !i10b 1
 !s100 Yi_nb^:7F>WI7N0:=:iHi0
 !s11b ?[DBSo3R5_;V:W1?n64eR0
 ICXBif>`aiiMCabCImAYYh1
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -840,15 +840,15 @@ R9
 R10
 R11
 vama_register_function
-R1
+R0
 R13
 !i10b 1
 !s100 bIcBzfocIz8=:_LC7C2Q53
 !s11b 7F5W8eG_e;Qg4PcLBE_JO2
 IhnlEHTbl<[bdYhj=8c22K1
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -864,15 +864,15 @@ R9
 R10
 R11
 vama_register_with_ext_function
-R1
+R0
 R13
 !i10b 1
 !s100 3JA;SEimMYi51kDL@JI][1
 !s11b H0]O@Uc3^RmEZ8^2Y>blA1
 IJCm?K7KBU[bYB3mTZnQ_J0
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -888,15 +888,15 @@ R9
 R10
 R11
 vama_scanchain
-R1
+R0
 R13
 !i10b 1
 !s100 `YA1NV2CC_H<jCSaaQiW42
 !s11b 7i=QGQT6mZ?61Y:VgkZ`[3
 IeC5aZTAOdkmOIYhIHN2M:2
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -912,15 +912,15 @@ R9
 R10
 R11
 vama_signed_extension_function
-R1
+R0
 R13
 !i10b 1
 !s100 d50OJn3YcNbWjITeROeRJ1
 !s11b lM4VlLg`fBZaB5GGEXA^H1
 I?k6^K9QneXaR<DoPc>Q:43
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -936,15 +936,15 @@ R9
 R10
 R11
 vama_systolic_adder_function
-R1
+R0
 R13
 !i10b 1
 !s100 99@iV_<ANY5U30ihgQ;Fn2
 !s11b M0`WBe^m_<7`TjbIJ>3cd2
 I^De^[bSST4=6^Z3J3ZXj31
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -960,15 +960,15 @@ R9
 R10
 R11
 vcommon_14nm_ram_pulse_generator
-R1
+R0
 R13
 !i10b 1
 !s100 =4DA>[>]d27DNj3DYDf1W2
 Z15 !s11b YRBUT?nJJYoV]f?b<IFL_1
 ITV82E<>Bz7Z00LdT_^<>i0
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -984,15 +984,15 @@ R9
 R10
 R11
 vcommon_14nm_ram_register
-R1
+R0
 R13
 !i10b 1
 !s100 jh`9On8?fZQU4g=5YRZfg2
 Z16 !s11b T_gTUAANh^U`KckzdZM=13
 IgEB3Pn:bjIPK2?1]k28zf2
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1008,16 +1008,16 @@ R9
 R10
 R11
 vcommon_28nm_mlab_cell_core
-R1
+R0
 R14
 R13
 !i10b 1
 !s100 1G=ahDh>=gfMIE0gh^^oj3
 !s11b 9ETT0_@QL;7Qni<UjGkAe2
 INI4LHG<IXfYUShMND4=8P2
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1033,15 +1033,15 @@ R9
 R10
 R11
 vcommon_28nm_mlab_cell_pulse_generator
-R1
+R0
 R13
 !i10b 1
 !s100 7o?]h2nYR65gO<3JPE]F91
 !s11b 0<ee[3_QSPEQgVRfW<O[[0
 IC2WnFclCEd2P2ZgLh_fk]1
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1057,15 +1057,15 @@ R9
 R10
 R11
 vcommon_28nm_mlab_latch
-R1
+R0
 R13
 !i10b 1
 !s100 gdQHCOo;LKXnG7ZbAaJN;3
 !s11b C:nBK@j659bP]EQ_Iao8l2
 I`Vi<?6J2A3m@o2h;JCazV3
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1081,16 +1081,16 @@ R9
 R10
 R11
 vcommon_28nm_ram_block
-R1
+R0
 R14
 R13
 !i10b 1
 !s100 IFc0lczC7HoMDcVPh=ca^1
 !s11b <l4ECm@@568S6O`f]]FZm3
 IT3=ER1ifhCSI^S[L>7hlH1
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1106,15 +1106,15 @@ R9
 R10
 R11
 vcommon_28nm_ram_pulse_generator
-R1
+R0
 R13
 !i10b 1
 !s100 e6:Lf3e<bBEVVzJG@H8:<0
 R15
 IhLG`^e[oUia68;ZKK028k0
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1130,15 +1130,15 @@ R9
 R10
 R11
 vcommon_28nm_ram_register
-R1
+R0
 R13
 !i10b 1
 !s100 13LEclCNaKT3<]GTIbA?00
 R16
 IAP6bW=^i^RH[N1>JRUTCc2
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1154,15 +1154,15 @@ R9
 R10
 R11
 vcommon_porta_latches
-R1
+R0
 R13
 !i10b 1
 !s100 i62=f`3DFXIiTijY1cSDe2
 !s11b CKSH2d>Vhin:DcKaaBN>P0
 IDkGRb5cFnmJ@dT>;1CiGn0
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1178,15 +1178,15 @@ R9
 R10
 R11
 vcommon_porta_registers
-R1
+R0
 R13
 !i10b 1
 !s100 I2oD:JLSMUB[d0nJ?=`Ro3
 !s11b U7HlURli3W2UzX1zX6==z3
 IFM:8O=;b`^d53dFjLKcR`0
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1202,15 +1202,15 @@ R9
 R10
 R11
 vdprio_init
-R1
+R0
 R12
 !i10b 1
 !s100 <Rb2ACo0]F3fAj>AP9HcQ2
 !s11b 8BC6RcM_fJAdPBKB>RQhb0
 Ij0L=9`9HbVZ_Un[Im<mn<1
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1226,15 +1226,15 @@ R9
 R10
 R11
 vdps_extra_kick
-R1
+R0
 R12
 !i10b 1
 !s100 aI5danR;NgDaU?mFmHb@<3
 !s11b BTh@dMXK=fm8NURzmVVmR1
 I:_Ho@TEaHCHeEQi80j?CL0
-R2
+R1
 S1
-R0
+R2
 R3
 R4
 R5
@@ -1250,12 +1250,10 @@ R9
 R10
 R11
 vdps_pulse_gen
-R1
+R0
 R12
 !i10b 1
-!s100 kh2bfEBelFBJOonh:1VRW0
-!s11b PQHA?aaMO6V44IZXJF6U71
-Ibj23a21j8N468g86iIhZ>m255
+!s100 kh2bfEBelFBJOonhm255
 K4
 z2
 !s11f vlog 2019.2 2019.04, Apr 17 2019
@@ -1265,15 +1263,15 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim
+dG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim
 va_graycounter
-Z1 !s110 1655281462
+Z0 !s110 1655456816
 !i10b 1
 !s100 ;]_8SWlHkDnI@8G3OPc^H1
 !s11b Xi`9<:=E`o>;be430DIlU2
 I<X><@G@0jlNfH7T8WYLI=3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-R0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dG:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim
 Z3 w1429759189
 Z4 8d:/fpga/quartus 2/quartus/eda/sim_lib/altera_mf.v
 Z5 Fd:/fpga/quartus 2/quartus/eda/sim_lib/altera_mf.v
@@ -1282,20 +1280,20 @@ Z6 OL;L;2019.2;69
 r1
 !s85 0
 31
-Z7 !s108 1655281461.000000
+Z7 !s108 1655456815.000000
 Z8 !s107 d:/fpga/quartus 2/quartus/eda/sim_lib/altera_mf.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_mf_ver|d:/fpga/quartus 2/quartus/eda/sim_lib/altera_mf.v|
 !i113 0
 Z10 o-vlog01compat -work altera_mf_ver -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z11 tCvgOpt 0
 valt3pram
-R1
+R0
 !i10b 1
 !s100 gknkb2D^4^HklzTliOlZ>3
 !s11b TW^B[4I[Q?;Kbko]J6_je2
 I:Ii^D[H8kGMM:QLESecZ]0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1311,13 +1309,13 @@ R9
 R10
 R11
 valt_aeq_s4
-R1
+R0
 !i10b 1
 !s100 2=J2RPNaD6n]X:M2_Y;Rd1
 !s11b o`PzLST?lUz<3zXU2L7aR0
 IBS_keSdGM6V_o3Va>88]80
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1333,13 +1331,13 @@ R9
 R10
 R11
 valt_cal
-R1
+R0
 !i10b 1
 !s100 6CVZT?oVQHA5?l9<lJGiZ1
 !s11b JKR9WT=e=@3X@;b8dFl8G3
 Iik]z=HN9iciKC?lR`RBUK3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1355,13 +1353,13 @@ R9
 R10
 R11
 valt_cal_av
-R1
+R0
 !i10b 1
 !s100 _fYJ;zT9Xf[=EhgFAjN<_2
 !s11b ZMb>PbfKO21OgDahPJo?e3
 I7i3UT^2z1oSF@41O]oG2N3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1377,13 +1375,13 @@ R9
 R10
 R11
 valt_cal_c3gxb
-R1
+R0
 !i10b 1
 !s100 TYDnImeoQK=g7J=e<5F_F3
 !s11b U6F`ch<Odmg>BQ^K5=4PR1
 IDPBAVz@QU4oWc0CifIo111
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1399,13 +1397,13 @@ R9
 R10
 R11
 valt_cal_mm
-R1
+R0
 !i10b 1
 !s100 @iFzn1WjQe]I3MA?kFGTi2
 !s11b Me1dHUaXZSfZ2BSC9VD8F2
 IJY`AgBcgMcICWj1LK705F1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1421,13 +1419,13 @@ R9
 R10
 R11
 valt_cal_sv
-R1
+R0
 !i10b 1
 !s100 hJ7?`:R;n2Jecel5[J[C80
 !s11b 7=bT7P`DScJTg`=G7DAL43
 IOH=OR=Ckl2VgCACl@H]N90
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1443,13 +1441,13 @@ R9
 R10
 R11
 valt_dfe
-R1
+R0
 !i10b 1
 !s100 Iz[joaD0RXN;c:C0k0<Wa0
 !s11b 5I:h7<OI:02XF;TC@B;DX2
 I2?7Uc9eXzFVfB68mbm`o[2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1465,13 +1463,13 @@ R9
 R10
 R11
 valt_eyemon
-R1
+R0
 !i10b 1
 !s100 :dRd2Nkna^0GmT0IEbF7O0
 !s11b kO]66AkEmgOz;0;>jK7[g2
 I>6g`Tf_C:O?iVFb_;A8:@1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1487,13 +1485,13 @@ R9
 R10
 R11
 valtaccumulate
-R1
+R0
 !i10b 1
 !s100 N0UGSOL:FRAQXc:l6DMHR2
 !s11b BX<;8ZAJ@`NJb[Q0[2M;n0
 IO:zmR^]JXMbD9Mh`Xo_Id1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1509,13 +1507,13 @@ R9
 R10
 R11
 valtclklock
-R1
+R0
 !i10b 1
 !s100 Wb;KB=:8T3R:PW9fGo2YB0
 !s11b UhYGISC1B?@FRY8Sd;z>h3
 IKP]bRgT[VBaOHh>3MJo:@1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1531,13 +1529,13 @@ R9
 R10
 R11
 valtddio_bidir
-R1
+R0
 !i10b 1
 !s100 AZ:H8<A5dPbP;M>Gk6EMK1
 !s11b mQbDHfIC;Z:ZNe40X6GX23
 IWzcDEg`MEm>F<GXE3nBMg0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1553,13 +1551,13 @@ R9
 R10
 R11
 valtddio_in
-R1
+R0
 !i10b 1
 !s100 4TTf3[j1C;1Ub>Jh?[O8l1
 !s11b A;4h[`D[bnMi3d4:5Xc_=0
 IOB6N3:Mgi?``;gfA4^kF23
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1575,13 +1573,13 @@ R9
 R10
 R11
 valtddio_out
-R1
+R0
 !i10b 1
 !s100 =`TR<Xc6689@HU97Qfb]G2
 !s11b k:9X2SmdOB1PAGCbIU=X11
 IakILnkJ0jc<CCN;=5[6j20
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1597,13 +1595,13 @@ R9
 R10
 R11
 valtdpram
-R1
+R0
 !i10b 1
 !s100 M]Xg;;2FV63b9ELY<HY;`3
 !s11b G6oLN8jz8J_7zOGW6X<<R1
 Iafd7MmO;IU^RJ61gFm:>d2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1619,13 +1617,13 @@ R9
 R10
 R11
 vALTERA_DEVICE_FAMILIES
-Z12 !s110 1655281461
+R0
 !i10b 1
 !s100 CQaSC`m:<Ka@>FPR0cGQd1
 !s11b nL3^c_[;kjZF=B`7J4A;93
 Ib^33QFjCakbAj5>5j<gBz3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1642,13 +1640,13 @@ R10
 R11
 n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
 vALTERA_MF_HINT_EVALUATION
-R12
+R0
 !i10b 1
 !s100 K?iz4hi=OHf@I:Q5;84hQ0
 !s11b 2AVJGJcO8Ln_a?]jV>`431
 IVA^F=dUDmacR7:Z2=ZIHC3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1665,13 +1663,13 @@ R10
 R11
 n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
 vALTERA_MF_MEMORY_INITIALIZATION
-R12
+R0
 !i10b 1
 !s100 z;?Z2cPmRRbi1A3QPKEPF2
 !s11b 4MAnz4VizGf9iPUzZcCCi2
 ILbHDXoVf7PhKUWfGm>4z92
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1688,13 +1686,13 @@ R10
 R11
 n@a@l@t@e@r@a_@m@f_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
 valtera_std_synchronizer
-R1
+R0
 !i10b 1
 !s100 z`5cO81bcGnAOKWmobic70
 !s11b QdjR7:iW56Xm?GTU4D6VO2
 IB[^fRJJlm7cS07A4?9N_k3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1710,13 +1708,13 @@ R9
 R10
 R11
 valtera_std_synchronizer_bundle
-R1
+R0
 !i10b 1
 !s100 2dYneLSiTd<QKM`>oiaBb0
 !s11b 2EDRnY?aH>TCnA_12XQTV1
 ITLDaa762HC@XVoInSzcIA3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1732,13 +1730,13 @@ R9
 R10
 R11
 valtera_syncram_derived
-R1
+R0
 !i10b 1
 !s100 2oie?<3Y5b22]^UQ6eV2C2
 !s11b 4o5z_d>`fWGVMiU_<0C;V1
 IWGU5kF3X_FNCfmOfQGk>`0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1754,13 +1752,13 @@ R9
 R10
 R11
 valtfp_mult
-R1
+R0
 !i10b 1
 !s100 PZTeDlECM7hezh8KOFbYS2
 !s11b 9iR06Q6OHO=`N3[J`9iie0
 I0:ZV3S:5JgIn<82hjhhJ;2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1776,13 +1774,13 @@ R9
 R10
 R11
 valtlvds_rx
-R12
+R0
 !i10b 1
 !s100 =7n:3J5Ge7_ZR2doTYkBL1
 !s11b NPni[?Z4c7X>NkZYCnf1L2
 ICE2Eimh7RU_6O9z28;acN2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1798,13 +1796,13 @@ R9
 R10
 R11
 valtlvds_tx
-R12
+R0
 !i10b 1
 !s100 O^TejiL1lGTA@=MTU2Ahc0
 !s11b 5>HaX^dVSLdVLQ`c@B^NW1
 IeX:nFTCW7V3N44Icc45TQ0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1820,13 +1818,13 @@ R9
 R10
 R11
 valtmult_accum
-R1
+R0
 !i10b 1
 !s100 <M0cO4L<O`TN[EBG68olg1
 !s11b aVkCWXOYB0fn:dc:H[K]X1
 I]2fCzFFDF^i4Rge3GYNVQ2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1842,13 +1840,13 @@ R9
 R10
 R11
 valtmult_add
-R1
+R0
 !i10b 1
 !s100 26zkS5V9T:^@;nfHKCnJ]2
 !s11b eAG;UI@EEm1AHXE:bQKH^1
 I1?6NcNahnPjYR6nz?>W;<0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1864,13 +1862,13 @@ R9
 R10
 R11
 valtparallel_flash_loader
-R1
+R0
 !i10b 1
 !s100 MDZ7X`L_9`>G8P0h8_KMQ0
 !s11b f_nFORY2iIJZ:S9VlkjLc0
 I1NM1eZ;e0j^_gU1CA1NI>0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1886,13 +1884,13 @@ R9
 R10
 R11
 valtpll
-R12
+R0
 !i10b 1
 !s100 cPBa0aH77H1A@5S1JokI53
 !s11b iTHG9;hFl1SE;iJLd__nB2
 I?KGHTR7:WnnVF`fOE3[VR0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1908,13 +1906,13 @@ R9
 R10
 R11
 valtserial_flash_loader
-R1
+R0
 !i10b 1
 !s100 lK[NEF3k5c5PA:B?Y^3S10
 !s11b R97ILa4Mi^8H1^3GGl=B=1
 I5K85CDNTz_SN`YW<?]MNR1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1930,13 +1928,13 @@ R9
 R10
 R11
 valtshift_taps
-R1
+R0
 !i10b 1
 !s100 zznj`zmKj=BCgD=ZM7_fU1
 !s11b GB;k?HRAD4MR@lm@T;5GT0
 I2]9ozf<2Mml@bTJEg5E]@3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1952,13 +1950,13 @@ R9
 R10
 R11
 valtsource_probe
-R1
+R0
 !i10b 1
 !s100 Z?:]REFjXn]6ES;4NF2Hi3
 !s11b C;_@[5?3DN>4oNU5]82Sf1
 IMcaL8`0KPUk@b=I7JP`Ml3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1974,13 +1972,13 @@ R9
 R10
 R11
 valtsqrt
-R1
+R0
 !i10b 1
 !s100 oe9JMo00P]MdbCbQfNNk[3
 !s11b Cc=^a6dITj_5zU>aZ3P8e1
 I0hfZj<9hM^1iQil6:g`FV0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -1996,13 +1994,13 @@ R9
 R10
 R11
 valtsquare
-R1
+R0
 !i10b 1
 !s100 gU128led4;n6cJTHVR2LQ3
 !s11b OG[SabeKm4mQV7nnJKc5`3
 Im42T:hcj<>Q=Y`cc9ZMb30
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2018,13 +2016,13 @@ R9
 R10
 R11
 valtstratixii_oct
-R1
+R0
 !i10b 1
 !s100 hcXEjVH6=_?QCa3D?bola2
 !s11b L`84h69fW5cXYJZCT9DX20
 Im690VcaM@e2iMXVDL@cJQ0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2040,13 +2038,13 @@ R9
 R10
 R11
 valtsyncram
-R1
+R0
 !i10b 1
 !s100 <JNjZHf6D=Ue_PRVW06;H2
 !s11b o0P:m=_bSYJ2iR=Da]<9D1
 IjgB9j8CJPAYiCedRaQRi41
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2062,13 +2060,13 @@ R9
 R10
 R11
 valtsyncram_body
-R1
+R0
 !i10b 1
 !s100 KjJGfgV^^hi>:R5j4OK]01
 !s11b WISQzdOkle3l@HgAim6b<1
 I8J80ggmocZ4KkLYNA;I<80
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2084,13 +2082,13 @@ R9
 R10
 R11
 varm_m_cntr
-R12
+R0
 !i10b 1
 !s100 <mNZAU]L^fe6]gHJPbg2Z3
-Z13 !s11b 3^a=O=kX@;UZdO8Z4<UbJ2
+Z12 !s11b 3^a=O=kX@;UZdO8Z4<UbJ2
 IVic1M1WA7jO28kadY2CMz2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2106,13 +2104,13 @@ R9
 R10
 R11
 varm_n_cntr
-R12
+R0
 !i10b 1
 !s100 En<d:oPl0kjMGc8NYNl^F0
 !s11b EAP;?68kh]YeD[N2UCoJF1
 I372hRU]^Q?cFn<z?Oz@=d2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2128,13 +2126,13 @@ R9
 R10
 R11
 varm_scale_cntr
-R12
+R0
 !i10b 1
 !s100 3R]5jVCeJV^T0=HiG8c]W3
-Z14 !s11b dD=1g1Ykh_1Xk^^lYJ:0[2
+Z13 !s11b dD=1g1Ykh_1Xk^^lYJ:0[2
 I214S5^b;9X:gjG[63N?K42
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2150,13 +2148,13 @@ R9
 R10
 R11
 vcda_m_cntr
-R12
+R0
 !i10b 1
 !s100 KkcjzDOLUeJ[JM<o[I?Rd0
-R13
+R12
 IA_aJ;N^=E6BG<j0mQM7d]1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2172,13 +2170,13 @@ R9
 R10
 R11
 vcda_n_cntr
-R12
+R0
 !i10b 1
 !s100 9k[AmLjnhff;]C=B8I0Hg0
-Z15 !s11b <;6UDla_G[=Izb4_igX1z3
+Z14 !s11b <;6UDla_G[=Izb4_igX1z3
 I5E;]7mL6mC93ETz8CU@JR0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2194,17 +2192,11 @@ R9
 R10
 R11
 vcda_scale_cntr
-R12
+R0
 !i10b 1
 !s100 >5mU]YLB?iV:La4^KP3C02
-R14
-I5H1^V2YKTZQM3VHmKg^]F2
-R2
-R0
-R3
-R4
-R5
-L0 14536m255
+R13
+I5H1^V2YKTZQM3VHmKm255
 K4
 z2
 !s11f vlog 2019.2 2019.04, Apr 17 2019
@@ -2214,15 +2206,15 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim
+dG:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/simulation/modelsim
 vcycloneive_and1
-Z1 !s110 1655281467
+Z0 !s110 1655456821
 !i10b 1
 !s100 3?k1=2OEZVLAo^ml><a=l1
 !s11b =bA[LQQ8`Kz?o7O>YBV1>0
 I5:1231]z3>]RKjmER[50m3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-R0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dG:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/simulation/modelsim
 Z3 w1429797133
 Z4 8d:/fpga/quartus 2/quartus/eda/sim_lib/cycloneive_atoms.v
 Z5 Fd:/fpga/quartus 2/quartus/eda/sim_lib/cycloneive_atoms.v
@@ -2231,20 +2223,20 @@ Z6 OL;L;2019.2;69
 r1
 !s85 0
 31
-Z7 !s108 1655281467.000000
+Z7 !s108 1655456821.000000
 Z8 !s107 d:/fpga/quartus 2/quartus/eda/sim_lib/cycloneive_atoms.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|cycloneive_ver|d:/fpga/quartus 2/quartus/eda/sim_lib/cycloneive_atoms.v|
 !i113 0
 Z10 o-vlog01compat -work cycloneive_ver -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z11 tCvgOpt 0
 vcycloneive_and16
-R1
+R0
 !i10b 1
 !s100 ;nPOeA:fmJAMm;KePPJEW1
 !s11b 9?Xh?I9iYA?MicaX2Uin60
 Ibm5@hihNXEL^jYC:ZELI@0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2260,13 +2252,13 @@ R9
 R10
 R11
 vcycloneive_apfcontroller
-R1
+Z12 !s110 1655456822
 !i10b 1
 !s100 26YBJoe]l;@=JooUX1ghB3
 !s11b =dB6D<T9_1Fd6fBU`KOdK3
 IB_kc`PRIN2=HdjQNnoP@A0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2282,13 +2274,13 @@ R9
 R10
 R11
 vcycloneive_asmiblock
-R1
+R12
 !i10b 1
 !s100 Y]d0LR2zHVb3]H02WnMa21
 !s11b T_aN61zN4zN3NaeoJ6?h:1
 IfmY@F=GJOBmKoBO^PEMjP1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2304,13 +2296,13 @@ R9
 R10
 R11
 vcycloneive_b17mux21
-R1
+R0
 !i10b 1
 !s100 ^1Z7eI@zSc8=R0M9CldF:1
 !s11b l?WZ0^YJa9Wba7T8MYaAf0
 IEXZ;<_0OPMa>6UZO^;H8@3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2326,13 +2318,13 @@ R9
 R10
 R11
 vcycloneive_b5mux21
-R1
+R0
 !i10b 1
 !s100 ^LCbfi3cZ>mD20U0[]=NM2
 !s11b KEkoRLMX6_8RYoCH5DR:z3
 IGXE7`WoXiO`]48fNB^VPQ2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2348,13 +2340,13 @@ R9
 R10
 R11
 vcycloneive_bmux21
-R1
+R0
 !i10b 1
 !s100 bzC[R?DWUSHz=^fheomOD1
 !s11b QCiFP3AN91:_PA7HP0N8a2
 IVg`i765:;I9o@RJ^f`L6f2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2370,13 +2362,13 @@ R9
 R10
 R11
 vcycloneive_clkctrl
-R1
+R12
 !i10b 1
 !s100 F;76:C<]KTR2dRb59IiZ51
 !s11b L9_YX3687`^@Yd6AUG;@S1
 I`6jaCk:^<dhWH;h;]da7f1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2392,13 +2384,13 @@ R9
 R10
 R11
 vcycloneive_crcblock
-R1
+R12
 !i10b 1
 !s100 C56;U?MJY]<f;XbdXnVPh2
 !s11b 3@54WImJUXHBAni3hkFED0
 IEghCfY9F6B`XVIKoXmKFo1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2414,13 +2406,13 @@ R9
 R10
 R11
 vcycloneive_ddio_oe
-R1
+R12
 !i10b 1
 !s100 @Ef>U11:00=e;HN?Hf4gE3
 !s11b WUhoH86GVoEkf?]hLYL6G2
 I1:@2=CN75gmSnZm6<JAik0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2436,13 +2428,13 @@ R9
 R10
 R11
 vcycloneive_ddio_out
-R1
+R12
 !i10b 1
 !s100 K<SX^D_4WhE1T;f3>JTn?2
 !s11b _2FHKkW7_8CHED@hRn>FM1
 I_3<7Sj6ZHWTBG1j>D^_O_0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2458,13 +2450,13 @@ R9
 R10
 R11
 vcycloneive_dffe
-R1
+R0
 !i10b 1
 !s100 :9kleOdXj]Go^d4;d=P;41
 !s11b Sa9Jg1ORGFZPOaidbo6X40
 I_]i7LaDDEmR3?l^be;[GU0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2480,13 +2472,13 @@ R9
 R10
 R11
 vcycloneive_ena_reg
-R1
+R12
 !i10b 1
 !s100 z5Y99:J@;biS^zi5<BP7?1
 !s11b <SfMS:AfhX=T3b@QUTLT`2
 I@<0Y9kZKZ1hlkZ5LjP`5m2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2502,13 +2494,13 @@ R9
 R10
 R11
 vcycloneive_ff
-R1
+R0
 !i10b 1
 !s100 @n1WDINefGkCKefFZ`m_C0
 !s11b aS__8moU^?h9YRodjU1d=2
 IdS5zPoDboO_lVBj[G@RH_1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2524,13 +2516,13 @@ R9
 R10
 R11
 vcycloneive_io_ibuf
-R1
+R12
 !i10b 1
 !s100 b9P=5:4h4U:6z`X`<CQ^k1
 !s11b DjSQ`8`XBn457nR]`UjBZ1
 IOIfHB_664[8z6VPnlLgiS2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2546,13 +2538,13 @@ R9
 R10
 R11
 vcycloneive_io_obuf
-R1
+R12
 !i10b 1
 !s100 nU4d1W2I18E?b[XaIn<O53
 !s11b h6d];IHj@@Rh=a6GL]2Z^2
 IzFTRFc12`@]CU;B`P?E7J1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2568,13 +2560,13 @@ R9
 R10
 R11
 vcycloneive_io_pad
-R1
+R12
 !i10b 1
 !s100 aO5^<_zLX5HGc`al[ao8l0
 !s11b =1Rj9BP:^`Em4BGCK:LZe0
 ICd878Ldm^N:E`bWC9O2;K2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2590,13 +2582,13 @@ R9
 R10
 R11
 vcycloneive_jtag
-R1
+R12
 !i10b 1
 !s100 jX7N;?D?b@cn;FYC77OYQ2
 !s11b cYGLll4?d4gd6?B^B`1=<1
 I<ekYDHEXEMcRb:BlFPUkH0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2612,13 +2604,13 @@ R9
 R10
 R11
 vcycloneive_latch
-R1
+R0
 !i10b 1
 !s100 ;F@fHBW2AokmDnOQDj4c;0
 !s11b ch^OH[]Ve@@@:l26Okj]51
 IZNNbg[olSzW0e3n:[2M3^2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2634,13 +2626,13 @@ R9
 R10
 R11
 vcycloneive_lcell_comb
-R1
+R0
 !i10b 1
 !s100 78@j7ZKfk_DH3[L=ZA5HZ1
 !s11b 1K;o^:>=`<>?JSW:3FUkS3
 I=2A2Ni`n_9N>h`m8LZHhS0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2656,13 +2648,13 @@ R9
 R10
 R11
 vcycloneive_m_cntr
-R1
+R0
 !i10b 1
 !s100 f9N<m1N[^6[AAQzdjI1Sj0
 !s11b NnRfkkUEehgoeHGbf2k5U2
 IgX6B4_[]PXWPPHNz5]h<n0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2678,13 +2670,13 @@ R9
 R10
 R11
 vcycloneive_mac_data_reg
-R1
+R12
 !i10b 1
 !s100 ha9JnigK4Q8:iTY:?a<f?2
 !s11b gnS57f4Yb3:eGGRI3f5PQ0
 IL4Z7`hz>iOn][j_gO33R92
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2700,13 +2692,13 @@ R9
 R10
 R11
 vcycloneive_mac_mult
-R1
+R12
 !i10b 1
 !s100 ?j?2h5aV2g]e^7jcC>PZE2
 !s11b <gIdJWoNmzi:k_MB=4OW43
 IO6UiTIf97>Lg<[k:Co^Hg0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2722,13 +2714,13 @@ R9
 R10
 R11
 vcycloneive_mac_mult_internal
-R1
+R12
 !i10b 1
 !s100 62U3SbBKzYnRLARJ11LRc2
 !s11b F]ahRF5nl64If5OiEoe443
 I^WK@C=4cWaN:3e6POEKiC3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2744,13 +2736,13 @@ R9
 R10
 R11
 vcycloneive_mac_out
-R1
+R12
 !i10b 1
 !s100 l7?^1VIlmfYgCB_L>4M:g2
 !s11b l_aoD0UL;_X@m09>93k<h2
 ImR7HAAF:BZ7M2mEklTFz_0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2766,13 +2758,13 @@ R9
 R10
 R11
 vcycloneive_mac_sign_reg
-R1
+R12
 !i10b 1
 !s100 ^XNJ`iYZRiilGb>a159[Z1
 !s11b LfjRHKzNmDL3VDlgHkGA92
 I58hcf:1;5J?25;Qi=S9Vi3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2788,13 +2780,13 @@ R9
 R10
 R11
 vcycloneive_mux21
-R1
+R0
 !i10b 1
 !s100 W2fAm7HizoaJnlJ;4k@d73
 !s11b :`gFDQj=FQg^=g=aB^eKf0
 IKbfMhZT<@]=YZij:D;RLG3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2810,13 +2802,13 @@ R9
 R10
 R11
 vcycloneive_mux41
-R1
+R0
 !i10b 1
 !s100 3fmWF<5U?O[AJN1R1E_622
 !s11b N_[oR?`e4:VImTemjcE7=0
 IJ_ei51J986fQ40oN;^H^W2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2832,13 +2824,13 @@ R9
 R10
 R11
 vcycloneive_n_cntr
-R1
+R0
 !i10b 1
 !s100 :1oICSijP5m6NAJLP2f_I1
 !s11b SQmBTI]6IGTE;==eGj6CP0
 IXl7olIb9>gW[N72>;<J=D2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2854,13 +2846,13 @@ R9
 R10
 R11
 vcycloneive_nmux21
-R1
+R0
 !i10b 1
 !s100 ]n91?VjY@G09XX<1064KH2
 !s11b Igk=E:Wi;5hBLFXj8c<6Q3
 IkGXZn?Hi=ba3aiCjblUPM1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2876,13 +2868,13 @@ R9
 R10
 R11
 vcycloneive_oscillator
-R1
+R12
 !i10b 1
 !s100 b1;>;CRaHzb:HlHVl7G9a2
 !s11b 6f><]i0iP^H8CPa7T_OF:1
 IC08^`m_1hk7n1>agdP6[[1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2898,13 +2890,13 @@ R9
 R10
 R11
 vcycloneive_pll
-R1
+R0
 !i10b 1
 !s100 GRDgjILnC>kQnD27HJkB]2
 !s11b >6e9<V`XUE7OZAUX6ag5I3
 Imf?Xi>XS`2;S`4hHH_dI`1
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2920,13 +2912,13 @@ R9
 R10
 R11
 vcycloneive_pll_reg
-R1
+R0
 !i10b 1
 !s100 =`[z97F^4jO33c@]0Q<bP3
 !s11b Ob6e76W;bO2@:=DWBkK652
 I=i27H7]]32dGe7UcaDS<U2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2942,13 +2934,13 @@ R9
 R10
 R11
 UCYCLONEIVE_PRIM_DFFE
-R1
+R0
 !i10b 1
 !s100 Q^GOAE5H?:Ca`KZgnz6M00
 !s11b 3he_dXP<N:QBXnm@McJ820
 INDYO]O^bZ@9>Ha5mih[Vg2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2965,13 +2957,13 @@ R10
 R11
 n@c@y@c@l@o@n@e@i@v@e_@p@r@i@m_@d@f@f@e
 UCYCLONEIVE_PRIM_DFFEAS
-R1
+R0
 !i10b 1
 !s100 :]5;J;i<6cVg=KE?WE;4O3
 !s11b UbdjPjRE5JTe[LMX[DPh_0
 Ib?MNGRlLf1ae<@W9kED[f2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -2988,13 +2980,13 @@ R10
 R11
 n@c@y@c@l@o@n@e@i@v@e_@p@r@i@m_@d@f@f@e@a@s
 UCYCLONEIVE_PRIM_DFFEAS_HIGH
-R1
+R0
 !i10b 1
 !s100 RdD;3J6OJDf3Ha:]02ORO1
 !s11b ^?:07geYd]^Yi5HO8zKZn1
 ID4AOOc>U6V7J`8<KH=lJb2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -3011,13 +3003,13 @@ R10
 R11
 n@c@y@c@l@o@n@e@i@v@e_@p@r@i@m_@d@f@f@e@a@s_@h@i@g@h
 vcycloneive_pseudo_diff_out
-R1
+R12
 !i10b 1
 !s100 J2GOi:Bcbia0cKI6A7E@O2
 !s11b L;>cZhUGElLF6G43zzcaB0
 Iam2[ak0[z<6IZ97?DN6<;0
+R1
 R2
-R0
 R3
 R4
 R5
@@ -3033,13 +3025,13 @@ R9
 R10
 R11
 vcycloneive_ram_block
-R1
+R12
 !i10b 1
 !s100 n7@JkAOm0;LYH1O^6ci8>3
 !s11b koV1]j]eD79V1TD76^lEz1
 IRUJ2:W7=c2D0A_2Q[fm0A3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -3055,13 +3047,13 @@ R9
 R10
 R11
 vcycloneive_ram_pulse_generator
-R1
+R0
 !i10b 1
 !s100 @PbZ4aKbY_4P]e<RfU2Ci0
 !s11b T]LKIB0UWT:gBMVmP7eBU3
 IWc8FkJO`PBLd1b0PdPZm90
+R1
 R2
-R0
 R3
 R4
 R5
@@ -3077,13 +3069,13 @@ R9
 R10
 R11
 vcycloneive_ram_register
-R1
+R12
 !i10b 1
 !s100 >GXU_S6ITU:MdHjH6F9TD1
 !s11b M<5HEC6g=]>l4SQ[IgSZY2
 I_3fTc8V^`2oaeX;o<nSl^3
+R1
 R2
-R0
 R3
 R4
 R5
@@ -3099,13 +3091,13 @@ R9
 R10
 R11
 vcycloneive_routing_wire
-R1
+R0
 !i10b 1
 !s100 PPZmh1jR7l:cL8`F4oj9d3
 !s11b XG5cQOiXH6YMCJncSnS_i3
 IW]HNoJMG]:gMLBCf_QZUn2
+R1
 R2
-R0
 R3
 R4
 R5
@@ -3119,10 +3111,3 @@ R8
 R9
 !i113 0
 R10
-R11
-vcycloneive_rublock
-R1
-!i10b 1
-!s100 :9C<@9[;b>m0Fd^fCofNP2
-!s11b edBdJIP[lFzClg47`dDnB2
-Ij

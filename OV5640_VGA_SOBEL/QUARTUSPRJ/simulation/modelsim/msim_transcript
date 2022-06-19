@@ -26,7 +26,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {d:/fpga/quartus 2/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:20 on Jun 15,2022
+# Start time: 17:06:54 on Jun 17,2022
 # vlog -reportprogress 300 -vlog01compat -work altera_ver d:/fpga/quartus 2/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -104,7 +104,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 16:24:20 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:06:54 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -115,7 +115,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {d:/fpga/quartus 2/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:20 on Jun 15,2022
+# Start time: 17:06:54 on Jun 17,2022
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/fpga/quartus 2/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -179,7 +179,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 16:24:20 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:06:55 on Jun 17,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -190,7 +190,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {d:/fpga/quartus 2/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:21 on Jun 15,2022
+# Start time: 17:06:55 on Jun 17,2022
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/fpga/quartus 2/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -232,7 +232,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 16:24:21 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:06:55 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -243,7 +243,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {d:/fpga/quartus 2/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:21 on Jun 15,2022
+# Start time: 17:06:55 on Jun 17,2022
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/fpga/quartus 2/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -370,7 +370,7 @@
 # 	altserial_flash_loader
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 16:24:22 on Jun 15,2022, Elapsed time: 0:00:01
+# End time: 17:06:56 on Jun 17,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -381,7 +381,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {d:/fpga/quartus 2/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:22 on Jun 15,2022
+# Start time: 17:06:57 on Jun 17,2022
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/fpga/quartus 2/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -1904,7 +1904,7 @@
 # 	altera_pll_reconfig_tasks
 # 	altera_syncram
 # 	altera_pll
-# End time: 16:24:26 on Jun 15,2022, Elapsed time: 0:00:04
+# End time: 17:07:01 on Jun 17,2022, Elapsed time: 0:00:04
 # Errors: 0, Warnings: 1454
 # 
 # vlib verilog_libs/cycloneive_ver
@@ -1915,7 +1915,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cycloneive_ver {d:/fpga/quartus 2/quartus/eda/sim_lib/cycloneive_atoms.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:27 on Jun 15,2022
+# Start time: 17:07:01 on Jun 17,2022
 # vlog -reportprogress 300 -vlog01compat -work cycloneive_ver d:/fpga/quartus 2/quartus/eda/sim_lib/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -1993,7 +1993,7 @@
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 16:24:27 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:02 on Jun 17,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -2005,301 +2005,301 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_sobel.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_VGA_SOBEL.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:27 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_sobel.v 
+# Start time: 17:07:02 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_VGA_SOBEL.v 
+# -- Compiling module OV5640_VGA_SOBEL
+# 
+# Top level modules:
+# 	OV5640_VGA_SOBEL
+# End time: 17:07:02 on Jun 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_sobel.v}
+# Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
+# Start time: 17:07:02 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_sobel.v 
 # -- Compiling module DIP_sobel
 # 
 # Top level modules:
 # 	DIP_sobel
-# End time: 16:24:27 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:03 on Jun 17,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_rgb2ycrcb.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_rgb2ycrcb.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:27 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_rgb2ycrcb.v 
+# Start time: 17:07:03 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_rgb2ycrcb.v 
 # -- Compiling module DIP_rgb2ycrcb
 # 
 # Top level modules:
 # 	DIP_rgb2ycrcb
-# End time: 16:24:27 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:03 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/sobel_detect.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/sobel_detect.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:27 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/sobel_detect.v 
+# Start time: 17:07:03 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/sobel_detect.v 
 # -- Compiling module sobel_detect
 # 
 # Top level modules:
 # 	sobel_detect
-# End time: 16:24:27 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:03 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/get_3x3_matrix.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/get_3x3_matrix.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:27 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/get_3x3_matrix.v 
+# Start time: 17:07:03 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/get_3x3_matrix.v 
 # -- Compiling module get_3x3_matrix
 # 
 # Top level modules:
 # 	get_3x3_matrix
-# End time: 16:24:27 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:03 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo/fifo.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo/fifo.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:27 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo" G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo/fifo.v 
+# Start time: 17:07:03 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo" G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo/fifo.v 
 # -- Compiling module fifo
 # 
 # Top level modules:
 # 	fifo
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:01
+# End time: 17:07:03 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_VGA.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/sdram_fifo {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/sdram_fifo/sdram_fifo.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_VGA.v 
-# -- Compiling module OV5640_VGA
-# 
-# Top level modules:
-# 	OV5640_VGA
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/sdram_fifo {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/sdram_fifo/sdram_fifo.v}
-# Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/sdram_fifo" G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/sdram_fifo/sdram_fifo.v 
+# Start time: 17:07:03 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/sdram_fifo" G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/sdram_fifo/sdram_fifo.v 
 # -- Compiling module sdram_fifo
 # 
 # Top level modules:
 # 	sdram_fifo
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:03 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen" G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v 
+# Start time: 17:07:03 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen" G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v 
 # -- Compiling module CLK_VGA
 # 
 # Top level modules:
 # 	CLK_VGA
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:03 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen" G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v 
+# Start time: 17:07:03 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen" G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v 
 # -- Compiling module CLK_GEN
 # 
 # Top level modules:
 # 	CLK_GEN
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:03 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/VGA_CTRL.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/VGA_CTRL.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/VGA_CTRL.v 
+# Start time: 17:07:03 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/VGA_CTRL.v 
 # -- Compiling module VGA_CTRL
 # 
 # Top level modules:
 # 	VGA_CTRL
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:03 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_WR.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_WR.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_WR.v 
+# Start time: 17:07:03 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_WR.v 
 # -- Compiling module SDRAM_WR
 # 
 # Top level modules:
 # 	SDRAM_WR
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:03 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_RD.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_RD.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_RD.v 
+# Start time: 17:07:03 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_RD.v 
 # -- Compiling module SDRAM_RD
 # 
 # Top level modules:
 # 	SDRAM_RD
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_INIT.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_INIT.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_INIT.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_INIT.v 
 # -- Compiling module SDRAM_INIT
 # 
 # Top level modules:
 # 	SDRAM_INIT
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_FIFO.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_FIFO.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_FIFO.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_FIFO.v 
 # -- Compiling module SDRAM_FIFO
 # 
 # Top level modules:
 # 	SDRAM_FIFO
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_CTRL.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_CTRL.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_CTRL.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_CTRL.v 
 # -- Compiling module SDRAM_CTRL
 # 
 # Top level modules:
 # 	SDRAM_CTRL
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_AREF.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_AREF.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_AREF.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_AREF.v 
 # -- Compiling module SDRAM_AREF
 # 
 # Top level modules:
 # 	SDRAM_AREF
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_ARBIT.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_ARBIT.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_ARBIT.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_ARBIT.v 
 # -- Compiling module SDRAM_ARBIT
 # 
 # Top level modules:
 # 	SDRAM_ARBIT
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM.v 
 # -- Compiling module SDRAM
 # 
 # Top level modules:
 # 	SDRAM
-# End time: 16:24:28 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_REG_CFG.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_REG_CFG.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:28 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_REG_CFG.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_REG_CFG.v 
 # -- Compiling module OV5640_REG_CFG
 # 
 # Top level modules:
 # 	OV5640_REG_CFG
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:01
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_DATA.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_DATA.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:29 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_DATA.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_DATA.v 
 # -- Compiling module OV5640_DATA
 # 
 # Top level modules:
 # 	OV5640_DATA
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CTRL.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CTRL.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:29 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CTRL.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CTRL.v 
 # -- Compiling module OV5640_CTRL
 # 
 # Top level modules:
 # 	OV5640_CTRL
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CFG.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CFG.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:29 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CFG.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CFG.v 
 # -- Compiling module OV5640_CFG
 # 
 # Top level modules:
 # 	OV5640_CFG
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/IIC_CTRL.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/IIC_CTRL.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:29 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL" G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/IIC_CTRL.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL" G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/IIC_CTRL.v 
 # -- Compiling module IIC_CTRL
 # 
 # Top level modules:
 # 	IIC_CTRL
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:04 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_gen_altpll.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_gen_altpll.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:29 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db" G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_gen_altpll.v 
+# Start time: 17:07:04 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db" G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_gen_altpll.v 
 # -- Compiling module CLK_GEN_altpll
 # 
 # Top level modules:
 # 	CLK_GEN_altpll
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:05 on Jun 17,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_vga_altpll.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_vga_altpll.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:29 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db" G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_vga_altpll.v 
+# Start time: 17:07:05 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db" G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_vga_altpll.v 
 # -- Compiling module CLK_VGA_altpll
 # 
 # Top level modules:
 # 	CLK_VGA_altpll
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:05 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../SIM/sobel {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../SIM/sobel/tb_get_3x3_matrix.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../SIM/sobel {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../SIM/sobel/tb_get_3x3_matrix.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:29 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../SIM/sobel" G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../SIM/sobel/tb_get_3x3_matrix.v 
+# Start time: 17:07:05 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../SIM/sobel" G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../SIM/sobel/tb_get_3x3_matrix.v 
 # -- Compiling module tb_get_3x3_matrix
 # 
 # Top level modules:
 # 	tb_get_3x3_matrix
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:05 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:29 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL" G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v 
+# Start time: 17:07:05 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL" G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v 
 # -- Compiling module get_3x3_matrix
 # 
 # Top level modules:
 # 	get_3x3_matrix
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:05 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL/sobel_detect.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL/sobel_detect.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:29 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL" G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL/sobel_detect.v 
+# Start time: 17:07:05 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL" G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL/sobel_detect.v 
 # -- Compiling module sobel_detect
 # 
 # Top level modules:
 # 	sobel_detect
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:05 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo/fifo.v}
+# vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo/fifo.v}
 # Model Technology ModelSim SE-64 vlog 2019.2 Compiler 2019.04 Apr 17 2019
-# Start time: 16:24:29 on Jun 15,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo" G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo/fifo.v 
+# Start time: 17:07:05 on Jun 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo" G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo/fifo.v 
 # -- Compiling module fifo
 # 
 # Top level modules:
 # 	fifo
-# End time: 16:24:29 on Jun 15,2022, Elapsed time: 0:00:00
+# End time: 17:07:05 on Jun 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_get_3x3_matrix
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_get_3x3_matrix 
-# Start time: 16:24:30 on Jun 15,2022
+# Start time: 17:07:05 on Jun 17,2022
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading work.tb_get_3x3_matrix(fast)
 # Loading work.get_3x3_matrix(fast)
@@ -2314,5 +2314,17 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 1 us
-# End time: 16:28:21 on Jun 15,2022, Elapsed time: 0:03:51
-# Errors: 0, Warnings: 0
+add wave -position insertpoint sim:/tb_get_3x3_matrix/get_3x3_matrix_inst/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb_get_3x3_matrix(fast)
+# Loading work.get_3x3_matrix(fast)
+# Loading work.fifo(fast)
+# Loading altera_mf_ver.scfifo(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading work.sobel_detect(fast)
+add wave -position insertpoint sim:/tb_get_3x3_matrix/get_3x3_matrix_inst/*
+run
+# Causality operation skipped due to absence of debug database file
+# End time: 17:09:12 on Jun 17,2022, Elapsed time: 0:02:07
+# Errors: 1, Warnings: 1

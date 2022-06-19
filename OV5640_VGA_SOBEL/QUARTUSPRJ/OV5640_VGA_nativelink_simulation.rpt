@@ -18,5 +18,5 @@ Sim dir               :  simulation\modelsim
 
 Info: Starting NativeLink simulation with ModelSim software
 Sourced NativeLink script d:/fpga/quartus 2/quartus/common/tcl/internal/nativelink/modelsim.tcl
-Warning: File OV5640_VGA_run_msim_rtl_verilog.do already exists - backing up current file as OV5640_VGA_run_msim_rtl_verilog.do.bak6
+Warning: File OV5640_VGA_run_msim_rtl_verilog.do already exists - backing up current file as OV5640_VGA_run_msim_rtl_verilog.do.bak7
 Info: Spawning ModelSim Simulation software 

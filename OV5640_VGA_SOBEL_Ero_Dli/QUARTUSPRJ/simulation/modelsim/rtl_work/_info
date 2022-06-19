@@ -1,0 +1,685 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 17 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/simulation/modelsim
+T_opt
+!s110 1655459093
+VkKWF2@a^H>Zb[A7oE]FY52
+04 17 4 work tb_get_3x3_matrix fast 0
+=1-002b67689534-62ac4d14-3d7-48d8
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2019.2;69
+vCLK_GEN
+Z2 !s110 1655459089
+!i10b 1
+!s100 k2:8_5Rz1gSnQIPGC:]=<3
+!s11b QfQVgWPAnXj[zaBKUe2ij0
+If2J>1;j:J?`L^2=olnYF02
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1649929469
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v
+Z4 L0 40
+Z5 OL;L;2019.2;69
+r1
+!s85 0
+31
+Z6 !s108 1655459089.000000
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@c@l@k_@g@e@n
+vCLK_GEN_altpll
+Z9 !s110 1655459090
+!i10b 1
+!s100 cK>YV[fmY?3O@=0mg[iPI2
+!s11b kLEFnPQ`8T0Xi=WiI7d6o2
+IL@L>Z6MJY=>Bf0O;:S_9L2
+R3
+R0
+w1651047671
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db/clk_gen_altpll.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db/clk_gen_altpll.v
+Z10 L0 31
+R5
+r1
+!s85 0
+31
+Z11 !s108 1655459090.000000
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db/clk_gen_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db/clk_gen_altpll.v|
+!i113 0
+R7
+Z12 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@c@l@k_@g@e@n_altpll
+vCLK_VGA
+R2
+!i10b 1
+!s100 NzcY:EcK`XWT>BKDYYa_d3
+!s11b J5gKn06O=;YZLJ4F99@1G2
+I?`WLCU@3Wn6?ciFb9271W2
+R3
+R0
+w1655087905
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v|
+!i113 0
+R7
+R8
+R1
+n@c@l@k_@v@g@a
+vCLK_VGA_altpll
+R9
+!i10b 1
+!s100 BJ[2[`FD;HoM=HFl3J^Pd0
+!s11b Delkc_=E2`aYDiGT6Ez2Z1
+In@PSI6BLg6]N0]l@`zSL<1
+R3
+R0
+w1655088198
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db/clk_vga_altpll.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db/clk_vga_altpll.v
+R10
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db/clk_vga_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/db/clk_vga_altpll.v|
+!i113 0
+R7
+R12
+R1
+n@c@l@k_@v@g@a_altpll
+vDIP_rgb2ycrcb
+Z13 !s110 1655459088
+!i10b 1
+!s100 cX]Ez1He1ldc9^0N`j`A<1
+!s11b ZPBnBo3VY3bbl_4T9oiHE3
+IX6K?kOLjng>VkGC4cN7]E1
+R3
+R0
+w1655282920
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL/DIP_rgb2ycrcb.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL/DIP_rgb2ycrcb.v
+Z14 L0 12
+R5
+r1
+!s85 0
+31
+Z15 !s108 1655459088.000000
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL/DIP_rgb2ycrcb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL/DIP_rgb2ycrcb.v|
+!i113 0
+R7
+Z16 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@d@i@p_rgb2ycrcb
+vDIP_sobel
+R13
+!i10b 1
+!s100 kR=ITDOc^mH0d]`iI[jWL0
+!s11b =M1DzSZI69zEl<hjz_@EM2
+InNam;j7dT5@VY;1V>_fOb3
+R3
+R0
+w1655282954
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL/DIP_sobel.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL/DIP_sobel.v
+R14
+R5
+r1
+!s85 0
+31
+R15
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL/DIP_sobel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SOBEL/DIP_sobel.v|
+!i113 0
+R7
+R16
+R1
+n@d@i@p_sobel
+vfifo
+R9
+!i10b 1
+!s100 <3fRO7CY3KRH<hVUe]kQO1
+!s11b M:CdX@djeNR4[l`;DmnSa2
+IV^EgkW5GiGO5>EJE3jd5[1
+R3
+R0
+w1655201834
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/fifo/fifo.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/fifo/fifo.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/fifo/fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/fifo|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/fifo/fifo.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/fifo -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vget_3x3_matrix
+R9
+!i10b 1
+!s100 Z6Z[NUdFhkLi4g`Cz7DZd1
+!s11b dc=c5BhCEIXCC6C4oa]LZ1
+IS^Ma;TF=V1Nc[JP>U38bN2
+R3
+R0
+w1655283275
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v
+R14
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v|
+!i113 0
+R7
+Z17 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vget_3x3_matrix_shift_ram
+R9
+!i10b 1
+!s100 BE6T]e9nlbjhYa]K<?2@c0
+!s11b i5<@Vh?g5Z_lcACP_clB33
+IiZBT07`O0]?ZkzZ9RhIbH3
+R3
+R0
+w1655458726
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix_shift_ram.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix_shift_ram.v
+R14
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix_shift_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix_shift_ram.v|
+!i113 0
+R7
+R17
+R1
+vIIC_CTRL
+R9
+!i10b 1
+!s100 DX9F9N0_S:EMJXJSGV05k1
+!s11b manoJoM8L`G`K18=l?K0;1
+IJ>:NlX4IelE`G5jAC]8ma2
+R3
+R0
+w1651064300
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/IIC_CTRL.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/IIC_CTRL.v
+Z18 L0 11
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/IIC_CTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/IIC_CTRL.v|
+!i113 0
+R7
+Z19 !s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@i@i@c_@c@t@r@l
+vOV5640_CFG
+R9
+!i10b 1
+!s100 lQSlHizc4K5?zdT`cTW[W1
+!s11b KhOjlP<Bf9>PBNMLm?>7M3
+I1RKG6Ffh_:S@ao5[2MAi@0
+R3
+R0
+w1651063771
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_CFG.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_CFG.v
+R18
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_CFG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_CFG.v|
+!i113 0
+R7
+R19
+R1
+n@o@v5640_@c@f@g
+vOV5640_CTRL
+R9
+!i10b 1
+!s100 QDWU?2WhC<=f;5N7GNiee2
+!s11b BFFZA0NW5f_ZE;zOh3VlE0
+IoV`k@kLecK:X5zZ5z>Z?k0
+R3
+R0
+w1655176633
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_CTRL.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_CTRL.v
+Z20 L0 15
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_CTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_CTRL.v|
+!i113 0
+R7
+R19
+R1
+n@o@v5640_@c@t@r@l
+vOV5640_DATA
+R9
+!i10b 1
+!s100 F:]U>gRzFUV3^c1TKShaL1
+!s11b le>amDL4QT:nmZl?Zf^]I1
+ID[X@HCz@i]U@Ml@Z:BFJi3
+R3
+R0
+w1651051481
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_DATA.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_DATA.v
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_DATA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_DATA.v|
+!i113 0
+R7
+R19
+R1
+n@o@v5640_@d@a@t@a
+vOV5640_REG_CFG
+R9
+!i10b 1
+!s100 GGP4aX;`dIYnecW9oDgDl0
+!s11b HDGdcl:_:=@6]]51Q]T=j2
+Ibk>EVQZ0HXBi??zb=>^z_1
+R3
+R0
+w1655087939
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_REG_CFG.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_REG_CFG.v
+Z21 L0 14
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_REG_CFG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_REG_CFG.v|
+!i113 0
+R7
+R19
+R1
+n@o@v5640_@r@e@g_@c@f@g
+vOV5640_VGA_SOBEL
+R13
+!i10b 1
+!s100 JW12EF6B1@SlJfL7T@d3c3
+!s11b 8TCY5jWhbo0Zdd@DNelT80
+IP98jo44Ece5jRh?>@?7z70
+R3
+R0
+w1655282467
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_VGA_SOBEL.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_VGA_SOBEL.v
+R21
+R5
+r1
+!s85 0
+31
+R15
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_VGA_SOBEL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/OV5640_VGA_SOBEL.v|
+!i113 0
+R7
+R19
+R1
+n@o@v5640_@v@g@a_@s@o@b@e@l
+vSDRAM
+R9
+!i10b 1
+!s100 6G?][K6EUBb[^_9cU>:QT2
+!s11b UVU8Ig:GFVGMDaY:67Y2Y2
+I2e=ogKb8amIM^AXj_>NgA3
+R3
+R0
+w1651046502
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM.v
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM.v|
+!i113 0
+R7
+R19
+R1
+n@s@d@r@a@m
+vSDRAM_ARBIT
+R9
+!i10b 1
+!s100 YE=OCZ26MnYCah8@bH<fG1
+!s11b ^K0AH6DUL?03QQF5f:4WR3
+ILF8a3_h^VL_Lag?hI=PzP1
+R3
+R0
+w1651064296
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_ARBIT.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_ARBIT.v
+R18
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_ARBIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_ARBIT.v|
+!i113 0
+R7
+R19
+R1
+n@s@d@r@a@m_@a@r@b@i@t
+vSDRAM_AREF
+R2
+!i10b 1
+!s100 zo7E[R7Q<RN_zamOSE_?k0
+!s11b <c@RcaTl@<hgiTz4BWGKe0
+IjfjT0532M_?>olP<EO;F;2
+R3
+R0
+w1651064271
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_AREF.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_AREF.v
+R18
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_AREF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_AREF.v|
+!i113 0
+R7
+R19
+R1
+n@s@d@r@a@m_@a@r@e@f
+vSDRAM_CTRL
+R2
+!i10b 1
+!s100 @e@46KYP9cFliLaFBO`Ig0
+!s11b 2Hm5z5U>c_7[_MTfc0[012
+IDE4HE[jOQG9PBI7eQhhOL2
+R3
+R0
+w1651064319
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_CTRL.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_CTRL.v
+R18
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_CTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_CTRL.v|
+!i113 0
+R7
+R19
+R1
+n@s@d@r@a@m_@c@t@r@l
+vsdram_fifo
+R2
+!i10b 1
+!s100 hhE1cVn7nG2EBOjfB55;h3
+!s11b D[C@Z8a6in>A?[TzdF`KV2
+I0:UXWHk=G[0Z2LjmZGl@G2
+R3
+R0
+w1649918707
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/sdram_fifo/sdram_fifo.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/sdram_fifo/sdram_fifo.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/sdram_fifo/sdram_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/sdram_fifo|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/sdram_fifo/sdram_fifo.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/sdram_fifo -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vSDRAM_FIFO
+R2
+!i10b 1
+!s100 6>Y[IBIdzD2CT1F@Hg5Ud0
+!s11b Qn^EKNi7fh8Sz[^5O0IiS2
+IREW`LUY0aU_1hQH^loWg93
+R3
+R0
+w1649923591
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_FIFO.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_FIFO.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_FIFO.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_FIFO.v|
+!i113 0
+R7
+R19
+R1
+n@s@d@r@a@m_@f@i@f@o
+vSDRAM_INIT
+R2
+!i10b 1
+!s100 MEf@48TR]eX:09^R4S_SZ2
+!s11b [gYa74_^g]6FjFVozYLiE1
+I;ZDORdB0[Sl;FIA;ebjZT2
+R3
+R0
+w1649335895
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_INIT.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_INIT.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_INIT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_INIT.v|
+!i113 0
+R7
+R19
+R1
+n@s@d@r@a@m_@i@n@i@t
+vSDRAM_RD
+R2
+!i10b 1
+!s100 SeBTZzo1[@nR44anPXP5h3
+!s11b TiOiNdUmUfD`zc59nniYB1
+IWf3?[c1:g^:j:Mm[G[Fk00
+R3
+R0
+w1649931065
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_RD.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_RD.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_RD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_RD.v|
+!i113 0
+R7
+R19
+R1
+n@s@d@r@a@m_@r@d
+vSDRAM_WR
+R2
+!i10b 1
+!s100 ;@GHAARR;J;^e_Sll8<AL3
+!s11b BZ3Y8l>hOHL28QL]F][Rb2
+IzDR883e_eYKjZ5Of]QCel3
+R3
+R0
+w1651064441
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_WR.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_WR.v
+R18
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_WR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/SDRAM_WR.v|
+!i113 0
+R7
+R19
+R1
+n@s@d@r@a@m_@w@r
+vshift_ram
+!s110 1655459091
+!i10b 1
+!s100 FRW_HHU;kA@R]BoJDPoHO2
+!s11b [BE2CM20>`H9iXfFV1cbi3
+I882:B=:[Rm3FBmng_2[Ro2
+R3
+R0
+w1655456600
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/shift_ram/shift_ram.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/shift_ram/shift_ram.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1655459091.000000
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/shift_ram/shift_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/shift_ram|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/shift_ram/shift_ram.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/ip_core/shift_ram -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vsobel_detect
+R9
+!i10b 1
+!s100 5kaQelO1YnlSAKZa47zFZ2
+!s11b `1z8NDU3`AMAcjoB6;HIg1
+IKDN9I`[eN3CTh[Bk>6Vn^2
+R3
+R0
+w1655283617
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/sobel_detect.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/sobel_detect.v
+R14
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/sobel_detect.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../RTL/SOBEL/sobel_detect.v|
+!i113 0
+R7
+R17
+R1
+vtb_get_3x3_matrix
+R9
+!i10b 1
+!s100 U0kIjaFiE<Qb;BJ0DPiPG2
+!s11b FDkj:JX6B36@iVad;E`<j0
+I72oh[XT=UJXlZ77Mhf0nz0
+R3
+R0
+w1655459076
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../SIM/sobel/tb_get_3x3_matrix.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../SIM/sobel/tb_get_3x3_matrix.v
+L0 2
+R5
+r1
+!s85 0
+31
+R11
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../SIM/sobel/tb_get_3x3_matrix.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../SIM/sobel|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../SIM/sobel/tb_get_3x3_matrix.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/QUARTUSPRJ/../SIM/sobel -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vVGA_CTRL
+R2
+!i10b 1
+!s100 cd;TKPl=iAf[a^kaV3SFC3
+!s11b 5WK`SmVHa>=E`gM_ioW`P0
+I1__TFRVgEJD9`3c_F_5S@3
+R3
+R0
+w1655282590
+8G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/VGA_CTRL.v
+FG:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/VGA_CTRL.v
+R20
+R5
+r1
+!s85 0
+31
+R6
+!s107 G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/VGA_CTRL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL|G:/FPGA_DIP/OV5640_VGA_SOBEL_Ero_Dli/RTL/VGA_CTRL.v|
+!i113 0
+R7
+R19
+R1
+n@v@g@a_@c@t@r@l

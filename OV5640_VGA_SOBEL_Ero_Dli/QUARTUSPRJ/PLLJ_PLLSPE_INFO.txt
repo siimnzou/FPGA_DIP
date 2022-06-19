@@ -1,0 +1,10 @@
+PLL_Name	CLK_GEN:CLK_GEN_inst|altpll:altpll_component|CLK_GEN_altpll:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	CLK_VGA:CLK_VGA_inst|altpll:altpll_component|CLK_VGA_altpll:auto_generated|pll1
+PLLJITTER	31
+PLLSPEmax	84
+PLLSPEmin	-53
+

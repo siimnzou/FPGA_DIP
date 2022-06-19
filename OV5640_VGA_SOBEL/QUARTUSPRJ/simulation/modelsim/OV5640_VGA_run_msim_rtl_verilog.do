@@ -33,36 +33,36 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_sobel.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/DIP_rgb2ycrcb.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/sobel_detect.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SOBEL/get_3x3_matrix.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo/fifo.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_VGA.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/sdram_fifo {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/sdram_fifo/sdram_fifo.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/VGA_CTRL.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_WR.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_RD.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_INIT.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_FIFO.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_CTRL.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_AREF.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM_ARBIT.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/SDRAM.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_REG_CFG.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_DATA.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CTRL.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/OV5640_CFG.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/RTL {G:/FPGA_DIP/OV5640/OV5640_VGA/RTL/IIC_CTRL.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_gen_altpll.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/db/clk_vga_altpll.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_VGA_SOBEL.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_sobel.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/DIP_rgb2ycrcb.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/sobel_detect.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SOBEL/get_3x3_matrix.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo/fifo.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/sdram_fifo {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/sdram_fifo/sdram_fifo.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_VGA.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/clk_gen/CLK_GEN.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/VGA_CTRL.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_WR.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_RD.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_INIT.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_FIFO.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_CTRL.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_AREF.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM_ARBIT.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/SDRAM.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_REG_CFG.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_DATA.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CTRL.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/OV5640_CFG.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL {G:/FPGA_DIP/OV5640_VGA_SOBEL/RTL/IIC_CTRL.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_gen_altpll.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/db/clk_vga_altpll.v}
 
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../SIM/sobel {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../SIM/sobel/tb_get_3x3_matrix.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/../RTL/SOBEL/sobel_detect.v}
-vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo {G:/FPGA_DIP/OV5640/OV5640_VGA/QUARTUSPRJ/ip_core/fifo/fifo.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../SIM/sobel {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../SIM/sobel/tb_get_3x3_matrix.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL/get_3x3_matrix.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/../RTL/SOBEL/sobel_detect.v}
+vlog -vlog01compat -work work +incdir+G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo {G:/FPGA_DIP/OV5640_VGA_SOBEL/QUARTUSPRJ/ip_core/fifo/fifo.v}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_get_3x3_matrix
 
