@@ -1,0 +1,20 @@
+verilog xil_defaultlib --include "E:/FPGA_xilinx_vivado_newversion/Vivado/2022.1/data/xilinx_vip/include" --include "../../../../ov5640_gesture.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../ov5640_gesture.gen/sources_1/bd/system/ipshared/5765/hdl" --include "../../../../ov5640_gesture.gen/sources_1/bd/system/ipshared/fc4b/hdl" \
+"../../../bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v" \
+"../../../bd/system/ip/system_v_axi4s_vid_out_0_0/sim/system_v_axi4s_vid_out_0_0.v" \
+"../../../bd/system/ipshared/f810/src/rgb2lcd.v" \
+"../../../bd/system/ip/system_rgb2lcd_0_0/sim/system_rgb2lcd_0_0.v" \
+"../../../../ov5640_gesture.gen/sources_1/bd/system/ipshared/ab26/src/mmcme2_drp.v" \
+"../../../bd/system/ip/system_xbar_0/sim/system_xbar_0.v" \
+"../../../bd/system/ip/system_xbar_1/sim/system_xbar_1.v" \
+"../../../bd/system/ip/system_v_vid_in_axi4s_0_0/sim/system_v_vid_in_axi4s_0_0.v" \
+"../../../bd/system/ipshared/9321/src/ov5640_capture_data.v" \
+"../../../bd/system/ip/system_ov5640_capture_data_0_0/sim/system_ov5640_capture_data_0_0.v" \
+"d:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.gen/sources_1/bd/system/ip/system_rgb2ycbcr_0_1/system_rgb2ycbcr_0_1_sim_netlist.v" \
+"../../../bd/system/ipshared/6e54/src/get_gesture_area.v" \
+"../../../bd/system/ip/system_get_gesture_area_0_0/sim/system_get_gesture_area_0_0.v" \
+"../../../bd/system/ip/system_auto_pc_0/system_auto_pc_0_sim_netlist.v" \
+"../../../bd/system/ip/system_auto_pc_1/system_auto_pc_1_sim_netlist.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

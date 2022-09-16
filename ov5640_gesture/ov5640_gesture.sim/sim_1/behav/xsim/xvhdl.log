@@ -1,0 +1,18 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.ip_user_files/bd/system/ip/system_axi_vdma_0_0/sim/system_axi_vdma_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_axi_vdma_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.ip_user_files/bd/system/ip/system_v_tc_0_0/sim/system_v_tc_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_v_tc_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.gen/sources_1/bd/system/ipshared/ab26/src/axi_dynclk_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_dynclk_S00_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.gen/sources_1/bd/system/ipshared/ab26/src/axi_dynclk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_dynclk'
+WARNING: [VRFC 10-3093] actual for formal port 'rst' is neither a static name nor a globally static expression [D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.gen/sources_1/bd/system/ipshared/ab26/src/axi_dynclk.vhd:225]
+WARNING: [VRFC 10-3093] actual for formal port 's1_clkout0' is neither a static name nor a globally static expression [D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.gen/sources_1/bd/system/ipshared/ab26/src/axi_dynclk.vhd:227]
+WARNING: [VRFC 10-3093] actual for formal port 's1_clkfbout' is neither a static name nor a globally static expression [D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.gen/sources_1/bd/system/ipshared/ab26/src/axi_dynclk.vhd:228]
+WARNING: [VRFC 10-3093] actual for formal port 's1_lock' is neither a static name nor a globally static expression [D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.gen/sources_1/bd/system/ipshared/ab26/src/axi_dynclk.vhd:230]
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.ip_user_files/bd/system/ip/system_axi_dynclk_0_0/sim/system_axi_dynclk_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_axi_dynclk_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.ip_user_files/bd/system/ip/system_axi_gpio_0_0/sim/system_axi_gpio_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_axi_gpio_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/ov5640_gesture.ip_user_files/bd/system/ip/system_rst_ps7_0_100M_1/sim/system_rst_ps7_0_100M_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'system_rst_ps7_0_100M_1'

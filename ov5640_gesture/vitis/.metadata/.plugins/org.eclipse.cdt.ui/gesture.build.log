@@ -1,0 +1,61 @@
+10:45:21 **** Incremental Build of configuration Debug for project gesture ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/vdma_api/vdma_api.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/vdma_api/vdma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/vitis/gesture_ov5640_platform/export/gesture_ov5640_platform/sw/gesture_ov5640_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/vdma_api/vdma_api.d" -MT"src/vdma_api/vdma_api.o" -o "src/vdma_api/vdma_api.o" "../src/vdma_api/vdma_api.c"
+'Finished building: ../src/vdma_api/vdma_api.c'
+' '
+'Building file: ../src/ov5640/ov5640_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ov5640/ov5640_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/vitis/gesture_ov5640_platform/export/gesture_ov5640_platform/sw/gesture_ov5640_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/ov5640/ov5640_init.d" -MT"src/ov5640/ov5640_init.o" -o "src/ov5640/ov5640_init.o" "../src/ov5640/ov5640_init.c"
+'Finished building: ../src/ov5640/ov5640_init.c'
+' '
+'Building file: ../src/emio_sccb_cfg/emio_sccb_cfg.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/emio_sccb_cfg/emio_sccb_cfg.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/vitis/gesture_ov5640_platform/export/gesture_ov5640_platform/sw/gesture_ov5640_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/emio_sccb_cfg/emio_sccb_cfg.d" -MT"src/emio_sccb_cfg/emio_sccb_cfg.o" -o "src/emio_sccb_cfg/emio_sccb_cfg.o" "../src/emio_sccb_cfg/emio_sccb_cfg.c"
+'Finished building: ../src/emio_sccb_cfg/emio_sccb_cfg.c'
+' '
+'Building file: ../src/dynclk/dynclk.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/vitis/gesture_ov5640_platform/export/gesture_ov5640_platform/sw/gesture_ov5640_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+'Finished building: ../src/dynclk/dynclk.c'
+' '
+'Building file: ../src/display_ctrl/display_ctrl.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/vitis/gesture_ov5640_platform/export/gesture_ov5640_platform/sw/gesture_ov5640_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+../src/display_ctrl/display_ctrl.c: In function 'DisplayStart':
+../src/display_ctrl/display_ctrl.c:149:13: warning: unused variable 'i' [-Wunused-variable]
+  149 |         int i;
+      |             ^
+../src/display_ctrl/display_ctrl.c:146:13: warning: unused variable 'Status' [-Wunused-variable]
+  146 |         int Status;
+      |             ^~~~~~
+../src/display_ctrl/display_ctrl.c: In function 'DisplayInitialize':
+../src/display_ctrl/display_ctrl.c:271:13: warning: unused variable 'i' [-Wunused-variable]
+  271 |         int i;
+      |             ^
+'Finished building: ../src/display_ctrl/display_ctrl.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/vitis/gesture_ov5640_platform/export/gesture_ov5640_platform/sw/gesture_ov5640_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: gesture.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/vitis/gesture_ov5640_platform/export/gesture_ov5640_platform/sw/gesture_ov5640_platform/standalone_domain/bsplib/lib -o "gesture.elf"  ./src/vdma_api/vdma_api.o  ./src/ov5640/ov5640_init.o  ./src/emio_sccb_cfg/emio_sccb_cfg.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: gesture.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size gesture.elf  |tee "gesture.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  63245	   1304	  25744	  90293	  160b5	gesture.elf
+'Finished building: gesture.elf.size'
+' '
+
+10:45:22 Build Finished (took 981ms)
+

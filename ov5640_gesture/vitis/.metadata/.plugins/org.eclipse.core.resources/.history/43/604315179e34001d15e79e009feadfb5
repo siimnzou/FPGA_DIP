@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="gesture" location="D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/vitis/gesture" platform="D:/xilinx_FPGA_prj/my_fpga_prj/ov5640_gesture/vitis/gesture_ov5640_platform/export/gesture_ov5640_platform/gesture_ov5640_platform.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="gesture_system" sysConfig="gesture_ov5640_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="168dee2199cc07b62dd22d1dd5486df5">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1984156176">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.379406237" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../ov5640_gesture.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../ov5640_gesture.gen/sources_1/bd/system/ipshared/5765/hdl" --include "../../../../ov5640_gesture.gen/sources_1/bd/system/ipshared/fc4b/hdl" --include "E:/FPGA_xilinx_vivado_newversion/Vivado/2022.1/data/xilinx_vip/include" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ip/system_v_axi4s_vid_out_0_0/sim/system_v_axi4s_vid_out_0_0.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ipshared/f810/src/rgb2lcd.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ip/system_rgb2lcd_0_0/sim/system_rgb2lcd_0_0.v" \
+"../../../../ov5640_gesture.gen/sources_1/bd/system/ipshared/ab26/src/mmcme2_drp.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ip/system_xbar_0/sim/system_xbar_0.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ip/system_xbar_1/sim/system_xbar_1.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ip/system_auto_pc_1/sim/system_auto_pc_1.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ip/system_v_vid_in_axi4s_0_0/sim/system_v_vid_in_axi4s_0_0.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ipshared/9321/src/ov5640_capture_data.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ip/system_ov5640_capture_data_0_0/sim/system_ov5640_capture_data_0_0.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ipshared/4265/src/rgb2ycbcr.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/ip/system_rgb2ycbcr_0_0/sim/system_rgb2ycbcr_0_0.v" \
+"../../../../ov5640_gesture.ip_user_files/bd/system/sim/system.v" \
+"../../../../ov5640_gesture.srcs/sources_1/imports/system_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

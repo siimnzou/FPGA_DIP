@@ -1,0 +1,81 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.978159",
+   "Default View_TopLeft":"345,408",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port lcd_0 -pg 1 -lvl 8 -x 2570 -y 780 -defaultsOSRD
+preplace port lcd_rgb_0 -pg 1 -lvl 8 -x 2570 -y 800 -defaultsOSRD
+preplace port emio_sccb -pg 1 -lvl 8 -x 2570 -y 440 -defaultsOSRD
+preplace port DDR -pg 1 -lvl 8 -x 2570 -y 460 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 8 -x 2570 -y 480 -defaultsOSRD
+preplace port port-id_lcd_bl_0 -pg 1 -lvl 8 -x 2570 -y 840 -defaultsOSRD
+preplace port port-id_cam_href_0 -pg 1 -lvl 0 -x 0 -y 920 -defaultsOSRD
+preplace port port-id_cam_vsync_0 -pg 1 -lvl 0 -x 0 -y 900 -defaultsOSRD
+preplace port port-id_cam_pclk_0 -pg 1 -lvl 0 -x 0 -y 880 -defaultsOSRD
+preplace port port-id_cam_rst_n_0 -pg 1 -lvl 8 -x 2570 -y 960 -defaultsOSRD
+preplace port port-id_cam_pwdn_0 -pg 1 -lvl 8 -x 2570 -y 1000 -defaultsOSRD
+preplace portBus cam_data_0 -pg 1 -lvl 0 -x 0 -y 940 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 7 -x 2310 -y 490 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 5 -x 1540 -y 450 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 5 -x 1540 -y 150 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 6 -x 1920 -y 180 -defaultsOSRD
+preplace inst rgb2lcd_0 -pg 1 -lvl 7 -x 2310 -y 810 -defaultsOSRD
+preplace inst axi_dynclk_0 -pg 1 -lvl 5 -x 1540 -y 680 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 6 -x 1920 -y 790 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1150 -y 500 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 3 -x 770 -y 680 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 6 -x 1920 -y 480 -defaultsOSRD
+preplace inst v_vid_in_axi4s_0 -pg 1 -lvl 4 -x 1150 -y 830 -defaultsOSRD
+preplace inst ov5640_capture_data_0 -pg 1 -lvl 1 -x 150 -y 900 -defaultsOSRD
+preplace inst get_gesture_area_0 -pg 1 -lvl 3 -x 770 -y 900 -defaultsOSRD
+preplace inst rgb2ycbcr_0 -pg 1 -lvl 2 -x 450 -y 890 -defaultsOSRD
+preplace netloc axi_dynclk_0_LOCKED_O 1 0 6 20 1000 310 980 600 1000 NJ 1000 NJ 1000 1720
+preplace netloc axi_dynclk_0_PXL_CLK_O 1 4 3 1360 310 1760 710 2070J
+preplace netloc cam_data_0_1 1 0 1 NJ 940
+preplace netloc cam_href_0_1 1 0 1 NJ 920
+preplace netloc cam_pclk_0_1 1 0 1 NJ 880
+preplace netloc cam_vsync_0_1 1 0 1 NJ 900
+preplace netloc get_gesture_area_0_gesture_clken 1 3 1 1000 800n
+preplace netloc ov5640_capture_data_0_cam_pwdn 1 1 7 300J 1010 NJ 1010 NJ 1010 NJ 1010 1750J 1000 NJ 1000 NJ
+preplace netloc ov5640_capture_data_0_cam_rst_n 1 1 7 280J 780 NJ 780 950J 960 NJ 960 NJ 960 NJ 960 NJ
+preplace netloc ov5640_capture_data_0_cmos_frame_ce 1 1 1 320 920n
+preplace netloc ov5640_capture_data_0_cmos_frame_clk 1 1 3 290 800 600 800 970J
+preplace netloc processing_system7_0_FCLK_CLK0 1 2 6 600 580 980 310 1340 580 1740 330 2070 600 2550
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 6 600 790 940J 970 NJ 970 NJ 970 NJ 970 2540
+preplace netloc rgb2lcd_0_lcd_bl 1 7 1 NJ 840
+preplace netloc rgb2ycbcr_0_rgb_data_syn 1 2 1 580 910n
+preplace netloc rgb2ycbcr_0_ycbcr_clken 1 2 1 590 890n
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 3 3 990 300 1350 590 1750
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 4 3 1370 300 1710J 40 2070
+preplace netloc axi_gpio_0_GPIO 1 6 1 N 790
+preplace netloc axi_mem_intercon_M00_AXI 1 6 1 N 480
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 5 1 1730 100n
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 5 1 N 390
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 5 1 N 410
+preplace netloc get_gesture_area_0_gesture_out 1 3 1 960 760n
+preplace netloc ov5640_capture_data_0_cmos_rgb 1 1 1 N 860
+preplace netloc processing_system7_0_DDR 1 7 1 NJ 460
+preplace netloc processing_system7_0_FIXED_IO 1 7 1 NJ 480
+preplace netloc processing_system7_0_GPIO_0 1 7 1 NJ 440
+preplace netloc processing_system7_0_M_AXI_GP0 1 3 5 1000 320 NJ 320 NJ 320 NJ 320 2550
+preplace netloc ps7_0_axi_periph_M00_AXI 1 4 1 1330 470n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 4 2 1300 770 NJ
+preplace netloc ps7_0_axi_periph_M02_AXI 1 4 1 1320 380n
+preplace netloc ps7_0_axi_periph_M03_AXI 1 4 1 1310 60n
+preplace netloc rgb2lcd_0_lcd 1 7 1 NJ 780
+preplace netloc rgb2lcd_0_lcd_rgb 1 7 1 NJ 800
+preplace netloc rgb2ycbcr_0_ycbcr 1 2 1 590 860n
+preplace netloc v_axi4s_vid_out_0_vid_io_out 1 6 1 2080 110n
+preplace netloc v_tc_0_vtiming_out 1 5 1 1720 120n
+preplace netloc v_vid_in_axi4s_0_video_out 1 4 1 1370 400n
+levelinfo -pg 1 0 150 450 770 1150 1540 1920 2310 2570
+pagesize -pg 1 -db -bbox -sgen -160 0 2710 1020
+"
+}
+{
+   "da_axi4_cnt":"11",
+   "da_clkrst_cnt":"5",
+   "da_ps7_cnt":"1"
+}
